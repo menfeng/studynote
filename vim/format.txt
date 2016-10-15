@@ -1,0 +1,25 @@
+从别的编辑器里粘贴到vim里的代码经常由于不正常的缩进变得格式混乱。在vim的官方FAQ （http://vimdoc.sourceforge.net/cgi-bin/vimfaq2html3.pl）找到的：
+
+格式化全文： gg=G
+
+自动缩进当前行： ==
+
+这个是原文节选：
+
+14.6. How do I format/indent an entire file?
+
+You can format/indent an entire file using the gg=G command, where
+
+     gg - Goto the beginning of the file
+     =   - apply indentation
+     G   - till end of file
+
+For more information, read
+
+     :help gg
+     :help =
+     :help G
+     :help 'formatprg'
+     :help C-indenting
+
+https://github.com/Chiel92/vim-autoformat

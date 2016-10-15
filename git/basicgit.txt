@@ -1,0 +1,13 @@
+git config --global user.name "menfeng" 
+git config --global user.email menfeng110119@gmail.com
+git init
+git stage .
+git commit -m init
+git remote add origin https://github.com/menfeng/test.git
+为版本库添加名为origin的远程版本库
+git push -u origin master
+执行推送命令，完成GitHub版本库的初始化。注意命令行中的-u参数，在推送成功后自动建立本地分支与远程版本库分支的追踪
+
+git stage .
+git commit -m test
+git push -u origin master

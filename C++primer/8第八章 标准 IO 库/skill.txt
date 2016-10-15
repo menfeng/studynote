@@ -1,0 +1,6 @@
+*********************read lines   and  read words***********************
+while (  getline (input,  s ) )   fileWord .push_back(s );   
+while (  input >>  s  )           fileWord .push_back(s );       
+
+*********************注意利用stringstream 提供的转换和／或格式化，挺强大的***********************
+
