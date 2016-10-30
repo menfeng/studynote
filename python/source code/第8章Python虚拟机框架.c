@@ -1,4 +1,38 @@
 //python源码解析笔记
+/*
+PyFrameObject is created in PyFrame_New
+	PyFrame_New(PyThreadState *tstate, PyCodeObject *code, PyObject *globals, PyObject *locals)
+	ncells = PyTuple_GET_SIZE(code->co_cellvars);
+	nfrees = PyTuple_GET_SIZE(code->co_freevars);
+	extras = code->co_stacksize + code->co_nlocals + ncells + nfrees;		//动态内存区四部分组成
+	f = PyObject_GC_Resize(PyFrameObject, f, extras);
+	extras = code->co_nlocals + ncells + nfrees;
+	f->f_valuestack = f->f_localsplus + extras;								//栈底
+	f->f_stacktop = f->f_valuestack;										//栈顶
+
+get frame in python
+	sys._get_frame()
+
+虚拟机框架
+	python start-->运行时环境-->PyEval_EvalFrameEx(PyFrameObject *f, int throwflag)
+	PyEval_EvalFrameEx会执行f中的 co_code
+
+	PyEval_EvalFrameEx设置线程的frame
+	PyThreadState *tstate = PyThreadState_GET();
+	tstate->frame = f;
+
+	PyFrame_New中会连接frame
+	PyFrameObject *back = tstate->frame;
+	f = PyObject_GC_Resize(PyFrameObject, f, extras);
+	f->f_back = back;
+	f->f_tstate = tstate;
+
+	i_state->i_state->
+	|
+	t_state->t_state->
+	|
+	frame->f_back-f_back
+ */
 //PyFrameObject
 typedef struct _frame {
     PyObject_VAR_HEAD
@@ -36,32 +70,6 @@ typedef struct _frame {
     PyObject *f_localsplus[1];	/* locals+stack, dynamically sized */
 } PyFrameObject;
 
-//create in PyFrame_New
-PyFrame_New(PyThreadState *tstate, PyCodeObject *code, PyObject *globals, PyObject *locals)
-ncells = PyTuple_GET_SIZE(code->co_cellvars);
-nfrees = PyTuple_GET_SIZE(code->co_freevars);
-extras = code->co_stacksize + code->co_nlocals + ncells + nfrees;
-f = PyObject_GC_Resize(PyFrameObject, f, extras);
-extras = code->co_nlocals + ncells + nfrees;
-f->f_valuestack = f->f_localsplus + extras;
-f->f_stacktop = f->f_valuestack;
-
-//get frame in python
-sys._get_frame()
-
-//虚拟机框架
-python start-->运行时环境-->PyEval_EvalFrameEx(PyFrameObject *f, int throwflag)
-PyEval_EvalFrameEx会执行f中的co_code
-
-PyEval_EvalFrameEx设置线程的frame
-PyThreadState *tstate = PyThreadState_GET();
-tstate->frame = f;
-
-PyFrame_New中会连接frame
-PyFrameObject *back = tstate->frame;
-f = PyObject_GC_Resize(PyFrameObject, f, extras);
-f->f_back = back;
-f->f_tstate = tstate;
 
 //进程PyInterpreterState
 typedef struct _is {
@@ -137,9 +145,4 @@ typedef struct _ts {
 
 } PyThreadState;
 
-//summarize
-i_state->i_state->
-|
-t_state->t_state->
-|
-frame->f_back-f_back
+

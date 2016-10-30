@@ -3,7 +3,7 @@
 
 1.py-->pyc(PyCodeObject)-->virtual-machine
 2.CodeBlock:when enter a new namespace,we enter a new CodeBlock|namespace<-->CodeBlock<-->PyCodeObject
-2.PyCodeObject
+3.PyCodeObject
 	代码中的一个Code Block(命名空间类、函数、module)，会创建一个PyCodeObject对象
 	co_argcount 	Code Block 的位置参数的个数，比如说一个函数的位置参数个数（位置参数 请参见第 11 章对函数机制的剖析）
 	co_nlocals 		Code Block 中局部变量的个数，包括其位置参数的个数
