@@ -241,6 +241,9 @@ finally:
 #define JUMPTO(x)       (next_instr = first_instr + (x))
 #define JUMPBY(x)       (next_instr += (x))
 
+#define STACK_LEVEL()     ((int)(stack_pointer - f->f_valuestack))
+#define INSTR_OFFSET()  ((int)(next_instr - first_instr))
+
 case LOAD_CONST:
 	x = GETITEM(consts, oparg);
 	Py_INCREF(x);
@@ -520,6 +523,8 @@ case POP_BLOCK:
 	}
 	continue;
 //***comment begin
+
+
 //in PyFrameObject 
 int f_iblock;		/* index in f_blockstack */
 PyTryBlock f_blockstack[CO_MAXBLOCKS]; /* for try and loop blocks */
