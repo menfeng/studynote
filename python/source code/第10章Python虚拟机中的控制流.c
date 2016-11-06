@@ -189,14 +189,14 @@ finally:
   3           6 LOAD_NAME                0 (Exception)
               9 LOAD_CONST               0 ('i am an exception')
              12 CALL_FUNCTION            1
-             15 RAISE_VARARGS            1			//15--->3--tb,val,exc in stack-->22
+             15 RAISE_VARARGS            1			//push tb,val,exc|SETUP_EXCEPT|-->22
              18 POP_BLOCK           
              19 JUMP_FORWARD            24 (to 46)
 
   4     >>   22 DUP_TOP             
              23 LOAD_NAME                0 (Exception)
              26 COMPARE_OP              10 (exception match)
-             29 POP_JUMP_IF_FALSE       45			//29--not match-->45(pop exc,val,tb restore)-->0-->50
+             29 POP_JUMP_IF_FALSE       45			//|not match|-->45
              32 POP_TOP             
              33 STORE_NAME               1 (e)
              36 POP_TOP             
@@ -204,9 +204,9 @@ finally:
   5          37 LOAD_NAME                1 (e)
              40 PRINT_ITEM          
              41 PRINT_NEWLINE       
-             42 JUMP_FORWARD             1 (to 46)//42-->46-->47
-        >>   45 END_FINALLY         
-        >>   46 POP_BLOCK           
+             42 JUMP_FORWARD             1 (to 46)	//-->46
+        >>   45 END_FINALLY        					//pop exc,val,tb|restore|SETUP_FINALLY|-->50
+        >>   46 POP_BLOCK          					//POP(not exe SETUP_FINALLY,so we need to pop manually) 
              47 LOAD_CONST               1 (None)
 
   7     >>   50 LOAD_CONST               2 ('the finally code')
