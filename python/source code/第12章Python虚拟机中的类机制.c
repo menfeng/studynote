@@ -67,7 +67,7 @@ result = PyObject_CallFunctionObjArgs(metaclass, name, bases, methods, NULL);
 tp_dict={"__getitem__":PyWrapperDescrObject}
 PyWrapperDescrObject.d_base->slotdef
 PyWrapperDescrObject.d_wrapped->func
- */
+*/
 
 //slot
 typeobject.h
@@ -410,14 +410,20 @@ a=A()
 a.f()
 a.g(10)
 """
->>> co=compile(s,"class_0.py","exec")
->>> co.co_consts
+co=compile(s,"class_0.py","exec")
+co.co_consts
 ('A', <code object A at 0000000002901AB0, file "class_0.py", line 2>, 10, None)
->>> co_c.co_names
+co.co_names
+('object', 'A', 'a', 'f', 'g')
+co_c.co_names
 ('__name__', '__module__', 'name', '__init__', 'f', 'g')
 >>> co_c=co.co_consts[1]
 >>> co_c.co_consts
 ('Python', <code object __init__ at 00000000028DB030, file "class_0.py", line 4>, <code object f at 00000000029016B0, file "class_0.py", line 7>, <code object g at 00000000029017B0, file "class_0.py", line 10>)
+>>> co_c.co_flags
+66
+#define CO_NEWLOCALS	0x0002
+
 >>> co_c.co_names
 ('__name__', '__module__', 'name', '__init__', 'f', 'g')
 >>> co_i=co_c.co_consts[1]
@@ -506,7 +512,77 @@ a.g(10)
              17 LOAD_CONST               0 (None)
              20 RETURN_VALUE        
 >>> 
- */
+
+
+类中的语句都是拿来执行的
+>>> s=""" 
+class A(object):
+	def f(a):
+		print a
+	print f
+	f=staticmethod(f)
+	print f
+"""
+>>> co=compile(s,"static.py","exec")
+>>> co.co_consts
+('A', <code object A at 0000000002970330, file "static.py", line 2>, None)
+>>> co_a=co.co_consts[1]
+>>> dis.dis(co_a)
+  2           0 LOAD_NAME                0 (__name__)
+              3 STORE_NAME               1 (__module__)
+
+  3           6 LOAD_CONST               0 (<code object f at 0000000002968030, file "static.py", line 3>)
+              9 MAKE_FUNCTION            0
+             12 STORE_NAME               2 (f)
+
+  5          15 LOAD_NAME                2 (f)
+             18 PRINT_ITEM          
+             19 PRINT_NEWLINE       
+
+  6          20 LOAD_NAME                3 (staticmethod)
+             23 LOAD_NAME                2 (f)
+             26 CALL_FUNCTION            1
+             29 STORE_NAME               2 (f)
+
+  7          32 LOAD_NAME                2 (f)
+             35 PRINT_ITEM          
+             36 PRINT_NEWLINE       
+             37 LOAD_LOCALS         
+             38 RETURN_VALUE        
+
+看懂cell和free
+>>> s=""" 
+def f1(a):
+	def f2(b):
+		print a
+		def f3(c):
+			print b
+		return f3
+	return f2(1)
+"""
+>>> co=compile(s,"static.py","exec")
+>>> co.co_consts
+(<code object f1 at 0000000002CF1730, file "static.py", line 2>, None)
+>>> co.co_consts[0].co_consts
+(None, <code object f2 at 0000000002CF16B0, file "static.py", line 3>, 1)
+>>> co.co_consts[0].co_consts[1]
+<code object f2 at 0000000002CF16B0, file "static.py", line 3>
+>>> co_f2=co.co_consts[0].co_consts[1]
+>>> dis.dis(co_f2)
+  4           0 LOAD_DEREF               1 (a)free靠后freevars[1]
+              3 PRINT_ITEM          
+              4 PRINT_NEWLINE       
+
+  5           5 LOAD_CLOSURE             0 (b)cell靠前freevars[0]
+              8 BUILD_TUPLE              1
+             11 LOAD_CONST               1 (<code object f3 at 000000000295BAB0, file "static.py", line 5>)
+             14 MAKE_CLOSURE             0
+             17 STORE_FAST               1 (f3)
+
+  7          20 LOAD_FAST                1 (f3)
+             23 RETURN_VALUE        
+>>> 
+*/
 
 static PyObject *
 build_class(PyObject *methods, PyObject *bases, PyObject *name)
