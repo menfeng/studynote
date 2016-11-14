@@ -37,6 +37,22 @@ def F():
 1.import b will give a Null as b'global
 2.give b's gloabal to F when F is created
 3.give F's global to new frame when b.F()
+
+
+==============sys.meta_path
+class CFinder:
+	def find_module(self,fullname,path=None):
+		if fullname=="xxx":
+			return self
+	def load_module(self,fullname):
+		import sys
+		return sys
+	
+sys.meta_path.append(CFinder())
+import xxx
+xxx
+<module 'sys' (built-in)>
+>>> 
  */
 
 
