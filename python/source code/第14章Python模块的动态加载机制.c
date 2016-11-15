@@ -836,3 +836,80 @@ PyImport_ExecCodeModuleEx(char *name, PyObject *co, char *pathname)
     return NULL;
 }
 
+
+/*
+for ppt 
+s="""
+INT_SIZE=4
+def Send():
+    print "Send"
+class CNet(object):
+    m_IntSize=4
+    def Send(self):
+        print "Send"
+"""
+>>> co=compile(s,"net.py","exec")
+>>> dis.dis(co)
+
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    dis.dis(co)
+NameError: name 'dis' is not defined
+>>> import dis
+>>> dis.dis(co)
+  2           0 LOAD_CONST               0 (4)
+              3 STORE_NAME               0 (INT_SIZE)
+
+  3           6 LOAD_CONST               1 (<code object Send at 00000000025FEB30, file "net.py", line 3>)
+              9 MAKE_FUNCTION            0
+             12 STORE_NAME               1 (Send)
+
+  5          15 LOAD_CONST               2 ('CNet')
+             18 LOAD_NAME                2 (object)
+             21 BUILD_TUPLE              1
+             24 LOAD_CONST               3 (<code object CNet at 00000000029D1030, file "net.py", line 5>)
+             27 MAKE_FUNCTION            0
+             30 CALL_FUNCTION            0
+             33 BUILD_CLASS         
+             34 STORE_NAME               3 (CNet)
+             37 LOAD_CONST               4 (None)
+             40 RETURN_VALUE        
+>>> co.co_consts
+(4, <code object Send at 00000000025FEB30, file "net.py", line 3>, 'CNet', <code object CNet at 00000000029D1030, file "net.py", line 5>, None)
+>>> co.co_consts[1]
+<code object Send at 00000000025FEB30, file "net.py", line 3>
+>>> co.co_consts[3]
+<code object CNet at 00000000029D1030, file "net.py", line 5>
+>>> co_f=co.co_consts[1]
+>>> c_co=co.co_consts[3]
+>>> dis.dis(co_f)
+  4           0 LOAD_CONST               1 ('Send')
+              3 PRINT_ITEM          
+              4 PRINT_NEWLINE       
+              5 LOAD_CONST               0 (None)
+              8 RETURN_VALUE        
+>>> dis.dis(c_co)
+  5           0 LOAD_NAME                0 (__name__)
+              3 STORE_NAME               1 (__module__)
+
+  6           6 LOAD_CONST               0 (4)
+              9 STORE_NAME               2 (m_IntSize)
+
+  7          12 LOAD_CONST               1 (<code object Send at 0000000002A105B0, file "net.py", line 7>)
+             15 MAKE_FUNCTION            0
+             18 STORE_NAME               3 (Send)
+             21 LOAD_LOCALS         
+             22 RETURN_VALUE        
+>>> 
+>>> c_co.co_consts
+(<code object Send at 000000000261C0B0, file "net.py", line 6>,)
+>>> s_co=c_co.co_consts[0]
+>>> dis.dis(s_co)
+  7           0 LOAD_CONST               1 ('Send')
+              3 PRINT_ITEM          
+              4 PRINT_NEWLINE       
+              5 LOAD_CONST               0 (None)
+              8 RETURN_VALUE        
+
+*/
+
