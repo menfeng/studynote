@@ -106,6 +106,26 @@ from a.b import c as x
              15 POP_TOP             
              16 LOAD_CONST               2 (None)
              19 RETURN_VALUE    
+s="""
+from ..a import b
+"""
+  2           0 LOAD_CONST               0 (2)
+              3 LOAD_CONST               1 (('b',))
+              6 IMPORT_NAME              0 (a)
+              9 IMPORT_FROM              1 (b)
+             12 STORE_NAME               1 (b)
+             15 POP_TOP             
+             16 LOAD_CONST               2 (None)
+             19 RETURN_VALUE       
+s="""
+from a import *
+"""
+  2           0 LOAD_CONST               0 (-1)
+              3 LOAD_CONST               1 (('*',))
+              6 IMPORT_NAME              0 (a)
+              9 IMPORT_STAR         
+             10 LOAD_CONST               2 (None)
+             13 RETURN_VALUE        
 
 case IMPORT_FROM:
 	w = GETITEM(names, oparg);
