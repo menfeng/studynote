@@ -22,3 +22,4 @@
 	sprintf(temp,"%s %s",PyString_AsString(s),"a")
 	PyFile_WriteString(temp,target)
 
+if (!strcmp(PyString_AsString(item),"__name__")){
