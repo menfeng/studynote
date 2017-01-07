@@ -1,0 +1,6 @@
+https://sourceware.org/mirrors.html
+到这里下载7.7.1
+ftp://mirrors.kernel.org/sourceware/gdb/releases/
+提示没有ncurses-devel
+yum install ncurses-libs
+yum install ncurses-devel

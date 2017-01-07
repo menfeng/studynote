@@ -1,0 +1,10 @@
+找到/etc/inputrc
+取消注释#set bell-style none
+
+core文件产生
+ulimit -c unlimited
+
+
+import sys;sys.path.append("/home/men/cpp/py/test");import libpython
+
+tar -xjf all.tar.bz2 
