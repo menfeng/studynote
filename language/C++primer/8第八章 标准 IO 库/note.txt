@@ -1,0 +1,238 @@
+第八章 标准 IO 库
+istream（输入流）类型，提供输入操作。
+ostream（输出流）类型，提供输出操作。
+cin（发音为 see-in）：读入标准输入的 istream 对象。
+cout（发音为 see-out）：写到标准输出的 ostream 对象。
+cerr（发音为 see-err）：输出标准错误的 ostream 对象。cerr 常用于程序错误信息。
+>> 操作符，用于从 istream 对象中读入输入。
+<< 操作符，用于把输出写到 ostream 对象中。
+getline 函数，需要分别取 istream 类型和 string 类型的两个引用形参，其功能是从 istream 对象读取一个单词，然后写入 string 对象中。
+
+8.1. An Object-Oriented Library
+Header    Type
+1iostream
+istream 从流中读取
+ostream 写到流中去
+iostream 对流进行读写；从 istream 和 ostream 派生而来
+2fstream
+ifstream 从文件中读取；由 istream 派生而来
+ofstream 写到文件中去；由 ostream 派生而来
+fstream 读写文件；由 iostream 派生而来
+3sstream
+istringstream 从 string 对象中读取；由 istream 派生而来
+ostringstream 写到 string 对象中去；由 ostream 派生而来
+stringstream 对 string 对象进行读写；由 iostream 派生而来
+* International Character Support
+  以上全部加上w在前面即可支持宽字符，另外wchar_t 类型的标准输入对象是 wcin；标准输出是 wcout；而标准错误则是 wcerr。
+* No Copy or Assign for IO Objects
+1因此不能存储在 vector（或其他）容器中
+2形参或返回类型也不能为流类型   可用非 const 引用的方式传递这个流对象。对 IO 对象的读写会改变它的状态，因此引用必须是非 const 的。
+
+
+8.2. Condition States 
+所有流对象都包含一个条件状态成员，该成员由 setstate 和 clear 操作管理。
+这个状态成员为 iostate 类型，这是由各个 iostream 类分别定义的机器相关的整型。该状态成员以二进制位（bit）的形式使用
+strm::iostate    机器相关的整型名，由各个 iostream 类定义，用于定义条件状态
+
+strm::badbit    strm::iostate 类型的值，用于指出被破坏的流
+strm::failbit     strm::iostate 类型的值，用于指出失败的 IO 操作
+strm::eofbit    strm::iostate 类型的值，用于指出流已经到达文件结束符
+ 
+s.eof()            如果设置了流 s 的 eofbit 值，则该函数返回 true  在遇到文件结束符时设置的，此时同时还设置了 failbit
+s.fail()            如果设置了流 s 的 failbit 值，则该函数返回 true     如果出现的是可恢复的错误，如在希望获得数值型数据时输入了字符
+s.bad()         如果设置了流 s 的 badbit 值，则该函数返回 true    标志着系统级的故障，如无法恢复的读写错误s.good()       如果流 s 处于有效状态，则该函数返回 true            以上三个均不为true时，good才返回true
+
+s.clear()       将流 s 中的所有状态值都重设为有效状态
+s.clear(flag)      将流 s 中的某个指定条件状态设置为有效。flag 的类型是 strm::iostates.setstate(flag) 给流 s 添加指定条件。flag 的类型是 strm::iostate， 用于表示某个问题的发生s.rdstate()       返回流 s 的当前条件，返回值类型为 strm::iostate
+ 
+1Interrogating（查询） and Controlling the State of a Stream
+
+      int ival;
+    // read cin and test only for EOF; loop is executed even if there are other IO failures
+    while (cin >> ival, !cin.eof()) {
+        if (cin.bad())         // input stream is corrupted; bail out
+            throw runtime_error("IO stream corrupted");
+        if (cin.fail()) {                        // bad input
+            cerr<< "bad data, try again";        // warn the user
+            cin.clear(istream::failbit);         // reset the stream
+            continue;                            // get next input
+        }
+        // ok to process ival
+    }
+
+2Accessing the Condition State
+
+ // remember current state of cin
+     istream::iostate old_state = cin.rdstate();
+     cin.clear();
+     process_input();  // use cin
+     cin.clear(old_state); // now reset cin to old state
+
+3Dealing with Multiple States
+
+   // sets both the badbit and the failbit
+   is.setstate(ifstream::badbit | ifstream::failbit);
+
+
+8.3. Managing the Output Buffer
+下面几种情况将导致缓冲区的内容被刷新，即写入到真实的输出设备或者文件：
+1程序正常结束。作为 main 返回工作的一部分，将清空所有输出缓冲区。
+2在一些不确定的时候，缓冲区可能已经满了，在这种情况下，缓冲区将会在写下一个值之前刷新
+
+3用操纵符显式地刷新缓冲区，例如行结束符 endl。
+cout << "hi!" << flush;      // flushes the buffer; adds no data
+cout << "hi!" << ends;       // inserts a null, then flushes the buffer
+cout << "hi!" << endl;       // inserts a newline, then flushes the buffer
+
+4在每次输出操作执行完后，用 unitbuf 操作符设置流的内部状态，从而清空缓冲区
+
+如果需要刷新所有输出，最好使用 unitbuf 操纵符。这个操纵符在每次执行完写操作后都刷新流：
+ cout << unitbuf << "first" << " second" << nounitbuf;等价于： cout << "first" << flush << " second" << flush;nounitbuf 操纵符将流恢复为使用正常的，由系统管理的缓冲区刷新方式。
+
+5可将输出流与输入流关联（tie）起来。在这种情况下，在读输入流时将刷新其关联的输出缓冲区。
+*标准库将 cout 与 cin 绑在一起，因此语句：cin >> ival;导致 cout 关联的缓冲区被刷新。
+*tie 函数可用 istream 或 ostream 对象调用，使用一个指向 ostream 对象的指针形参,则该流上的任何 IO 操作都会刷新实参所关联的缓冲区。一个 ostream 对象每次只能与一个 istream 对象绑在一起
+   cin.tie(&cout);   // illustration only: the library ties cin and cout for us
+    ostream *old_tie = cin.tie();
+    cin.tie(0); // break tie to cout, cout no longer flushed when cin is read
+    cin.tie(&cerr);   // ties cin and cerr, not necessarily a good idea!
+    cin.tie(0);       // break tie between cin and cerr
+    cin.tie(old_tie); // restablish normal tie between cin and cout
+
+
+
+8.4. File Input and Output 
+4.1. Using File Stream Objects
+fstream 定义了两个自己的新操作—— open 和 close，以及形参为要打开的文件名的构造函数。fstream、ifstream 或 ofstream 对象可调用这些操作，而其他的 IO 类型则不能调用
+1定义并打开
+ ifstream infile(ifile.c_str());
+ofstream outfile(ofile.c_str());
+2先定义在打开
+ ifstream infile;        infile.open("in");   
+ ofstream outfile;   outfile.open("out"); 
+3Checking Whether an Open Succeeded
+if (!infile) {
+        cerr << "error: unable to open input file: "
+             << ifile << endl;
+        return -1;
+    }
+4Rebinding a File Stream to a New File
+     open 函数会检查流是否已经打开。如果已经打开，则设置内部状态，以指出发生了错误。接下来使用文件流的任何尝试都会失败。
+     ifstream infile("in");      // opens file named "in" for reading
+     infile.close();             // closes "in"
+     infile.open("next");        // opens file named "next" for reading5Clearing the State of a File Stream
+    ifstream input;
+    vector<string>::const_iterator it = files.begin();
+    //   for each file in the vector
+    while (it != files.end()) {
+        input.open(it->c_str());  // open the file
+        // if the file is ok, read and "process" the input
+        if (!input)
+            break;                    // error: bail out!
+        while(input >> s) // do the work on this file
+            process(s);
+        input.close();        // close file when we're done with it
+        input.clear();        // reset state to ok
+        ++it;                 // increment iterator to get next file
+    }
+
+
+8.4.2. File Modes
+与条件状态标志一样，文件模式也是整型常量，在打开指定文件时，可用位操作符设置一个或多个模式。
+文件流构造函数和 open 函数都提供了默认实参设置文件模式。默认值因流类型的不同而不同
+ in打开文件做读操作
+ out打开文件做写操作
+app在每次写之前找到文件尾
+ate打开文件后立即将文件定位在文件尾
+trunc打开文件时清空已存在的文件流
+binary以二进制模式进行 IO 操作
+
+ out、trunc 、 app 模式只能用于指定 ofstream 或 fstream 
+ in                            模式只能用于指定 ifstream 或 fstream 
+所有的文件都可以用 ate 或 binary 模式打开      ate 模式只在打开时有效：文件打开后将定位在文件尾。以 binary 模式打开的流则将文件以字节序列的形式处理，而不解释流中的字符
+
+*默认时，
+1与 ifstream 流对象关联的文件将以 in 模式打开，该模式允许文件做读的操作：2与 ofstream 关联的文件则以 out 模式打开，使文件可写。以 out 模式打开的文件会被清空：丢弃该文件存储的所有数据。从效果来看，等效于同时指定了 out 和 trunc 模式。对于用 ofstream 打开的文件    ，要保存文件中存在的数据，唯一方法是显式地指定 app 模式打开
+3与 fstream 对象关联的文件以 in 和 out 模式同时打开。当文件同时以 in 和 out 打开时不清空，仅以out打开任然会清空，以trunc打开，则有无in都会清空
+
+*模式是文件的属性而不是流的属性每次打开文件时都会设置模式
+
+Valid Combinations for Open Mode
+out
+out | trunc
+out | app
+
+in
+in | out
+in | out | trunc
+上述所有的打开模式组合还可以添加 ate 模式。对这些模式添加 ate 只会改变文件打开时的初始化定位，在第一次读或写之前，将文件定位于文件末尾处。
+
+
+8.4.3. A Program to Open and Check Input Files***
+
+  // opens in binding it to the given file
+    ifstream& open_file(ifstream &in, const string &file)
+    {
+        in.close();     // close in case it was already open
+        in.clear();     // clear any existing errors
+        // if the open fails, the stream will be in an invalid state
+        in.open(file.c_str()); // open the file we were given
+        return in; // condition state is good if open succeeded
+    }
+
+
+8.5. String Streams 
+stringstream-Specific Operations
+
+stringstream strm;            创建自由的 stringstream 对象
+stringstream strm(s);       创建存储 s 的副本的 stringstream 对象，其中 s 是 string 类型的对象
+strm.str()                        返回 strm 中存储的 string 类型对象
+strm.str(s)                      将 string 类型的 s 复制给 strm，返回 void
+
+1Using a stringstream
+string line, word;                              // will hold a line and word from input, respectively
+    while (getline(cin, line))   {            // read a line from the input into line
+                                                     // do per-line processing
+       istringstream stream(line);      // bind to stream to the line we read
+       while (stream >> word){        // read a word from line
+           // do per-word processing
+       }
+    }
+2stringstream 提供的转换和／或格式化
+ int val1 = 512, val2 = 1024;
+    ostringstream format_message;
+    format_message << "val1: " << val1 << "\n" << "val2: " << val2 << "\n";
+
+   istringstream input_istring(format_message.str());
+   string dump; 
+   input_istring >> dump >> val1 >> dump >> val2;//读取时会忽略空白符，因此此处我们也忽略了换行符
+   cout << val1 << " " << val2 << endl;  
+注意     	string numString="88hh 2hh";
+	istringstream istring(numString);
+	istring>>v1>>dump>>v2>>dump;
+               这样得到的两个整数，如果没有那个空格就会出问题，"88hh2hh"只能的到88，后面的全部当做一个字符串
+              另外小数也可以读的"88.123hh 2.045hh";"88.123e+2hh 2.045hh";这样的都可以读出来
+总结：：一定理解好stream<<a,表示输出，但同时，在对a进行读取
+                            和stream>>a表示写入，但同时，在对a进行写入，改变了a的值。。。有时可能自己会混淆
+             …………… 箭头指向哪方就将内容存到了哪一方
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

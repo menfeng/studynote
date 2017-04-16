@@ -1,0 +1,1 @@
+1.centos 5.3 中文乱码解决	yum -y install fonts-chinese	yum install scim	yum install scim-pinyin	cd /usr/share/fonts/&&fc-cache   -fv2.centos 5.3 can not execute ifconfig	modify ~/.bashrc	PATH="/sbin:/usr/sbin:/usr/local/sbin:$PATH"	source ~/.bashrc

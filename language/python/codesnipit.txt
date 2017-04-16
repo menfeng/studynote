@@ -1,0 +1,9 @@
+1.获取函数源代码
+def foo(a):
+    x=2
+    return x+a
+
+import inspect
+print inspect.getsource(foo)
+
+2.

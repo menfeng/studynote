@@ -1,0 +1,14 @@
+**************sorts in reverse********************
+    // sorts vec in "normal" order
+     sort(vec.begin(), vec.end());
+     // sorts in reverse: puts smallest element at the end of vec
+     sort(vec.rbegin(), vec.rend());
+
+********************find last word********************************
+     // find first element in a comma-separated list
+     string::iterator comma = find(line.begin(), line.end(), ',');
+     cout << string(line.begin(), comma) << endl;
+只需调用所有反向迭代器类型都提供的成员函数 base 转换 rcomma 即可：
+ // find last element in a comma-separated list
+     string::reverse_iterator rcomma =find(line.rbegin(), line.rend(), ',');
+     cout << string(rcomma.base(), line.end()) << endl

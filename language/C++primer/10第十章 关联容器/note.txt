@@ -1,0 +1,110 @@
+Chapter 10. Associative Containers
+10.1. 引言：pair 类型
+pair<T1, T2> p1
+pair<T1, T2> p1(v1, v2);
+make_pair(v1, v2)
+p1 < p2，p1 > p2，p1 <= p2，p1 >= p2，p1 == p2    先比较first如果比不出结果，那么就利用second来比较
+p.first，p.second
+
+10.2. Associative Containers 
+1关联容器共享大部分——但并非全部——的顺序容器操作。关联容器不提供 front、 push_front、 pop_front、back、push_back 以及 pop_back 操作。
+*构造  5-2=3后面两种指定大小的不要，否则不能确定键
+*9.3.4.  关系操作符 
+*表 9.6 begin、end、rbegin 、 rend 
+*表 9.5 列出的类型别名
+*表 9.11 中描述的 swap 和赋值操作。但关联容器不提供 assign 函数
+*表 9.10 列出的 clear 和 erase 操作，但关联容器的 erase 运算返回 void 类型。
+*表 9.8 列出的关于容器大小的操作。但 resize 函数不能用于关联容器。
+2根据键排列元素
+*容器元素根据键的次序排列
+
+10.3. The map Type
+
+10.3.1. Defining a map
+*构造
+C<T> c;        
+C<T> c1(c2);   
+C<T> c(b, e);  
+*默认情况下，标准库使用键类型定义的 < 操作符来实现键（key type）的比较，键类型必须定义 < 操作符
+10.3.2. Types Defined by map
+map<K, V>::key_type
+map<K, V>::mapped_type
+map<K, V>::value_type
+*需谨记 value_type 是 pair 类型，它的值成员可以修改，但键成员不能修改。 它的 first 成员存放键，为 const！！！！！！！！！
+10.3.3. Adding Elements to a map
+10.3.4. Subscripting a map
+*下标操作符，如果该键已在容器中，则返回该键所关联的值。不存在时，map 容器才为该键创建一个新的元素，并将它插入到此 map 对象中。采用值初始化：类类型用默认构造函数初始化，而内置类型   的元素初始化为 0。
+*理解以下行为将会发生哪些事情
+ map <string, int> word_count; // empty map
+ // insert default initialzed element with key Anna; then assign 1 to its value
+ word_count["Anna"] = 1;
+10.3.5. Using map::insert
+m.insert(e)               如果键（e.first）不在 m 中，则插入一个值为 e.second 的新元素；如果该键在 m 中已存在，则保持 m 不变，返回的 bool 值为 false
+                                该函数返回一个 pair 类型对象，包含指向键为 e.first 的元素的 map 迭代器，以及一个 bool 类型的对象，表示是否插入了该元素
+m.insert(beg, end)    对于该范围内的所有元素，如果它的键在 m 中不存在，则将该键及其关联的值插入到 m。返回 void 类型
+m.insert(iter, e)         e 是一个用在 m 上的 value_type 类型的值。如果键（e.first）不在 m 中，则创建新元素，并以迭代器 iter 为起点搜索新元素存储的位置。
+                                返回一个迭代器，指向 m 中具有给定键的元素,但是插入后还是会按键排序
+*使用 insert 成员可避免使用下标操作符所带来的副作用：不必要的初始化
+10.3.6. Finding and Retrieving a map Element
+m.count(k)      对于 map 对象，count 成员的返回值只能是 0 或 1
+m.find(k)         如果 m 容器中存在按 k 索引的元素，则返回指向该元素的迭代器。如果不存在，则返回超出末端迭代器
+10.3.7. Erasing Elements from a map
+m.erase(k)      返回 size_type 类型的值，表示删除的元素个数
+m.erase(p)     p 必须指向 m 中确实存在的元素，而且不能等于 m.end()。返回 void
+m.erase(b, e)  返回 void 类型
+10.3.8. Iterating across a map
+10.3.9. A Word Transformation Map
+总结
+构造3，
+插入3，
+删除4(包括 clear)，
+访问：下标；或者下查找再访问
+size3(size  max_size empty)
+赋值和swap
+
+
+10.4. The set Type
+
+与map支持的操作同，除了两个例外
+set 不支持下标操作符，而且没有定义 mapped_type 类型。
+value_type 不是 pair 类型，而是与 key_type 相同的类型。它们指的都是 set 中存储的元素类型。set 容器存储的键也必须唯一，而且不能修改。
+总结：set与map   k《----》k-v
+      set与list  一个值不可变，一个值可变
+*Defining and Using sets
+*Adding Elements to a set
+*Fetching an Element from a set
+10.4.2. Building a Word-Exclusion Set
+
+10.5. The multimap and multiset Types
+multimap 和 multiset 所支持的操作分别与 map 和 set 的操作相同，只有一个例外：multimap 不支持下标运算。
+10.5.1. Adding and Removing Elements
+*由于键不要求是唯一的，因此每次调用 insert 总会添加一个元素。
+*带有一个键参数的 erase 版本将删除拥有该键的所有元素，并返回删除元素的个数。而带有一个或一对迭代器参数的版本只删除指定的元素，并返回 void 类型：
+10.5.2. Finding Elements in a multimap or multiset
+*如果某个键对应多个实例，则这些实例在容器中将相邻存放。
+1Using find and count
+2A Different, Iterator-Oriented Solution
+lower_bound 和 upper_bound。
+列出的这些操作适用于所有的关联容器，也可用于普通的 map 和 set 容器，但更常用于 multimap 和 multiset。所有这些操作都需要传递一个键，并返回一个迭代器。
+m.lower_bound(k)返回一个迭代器，指向键不小于 k 的第一个元素
+m.upper_bound(k)返回一个迭代器，指向键大于 k 的第一个元素
+m.equal_range(k)返回一个迭代器的 pair 对象它的 first 成员等价于 m.lower_bound(k)。而 second 成员则等价于 m.upper_bound(k)
+*如果所查找的元素拥有 multimap 容器中最大的键，那么的该键上调用 upper_bound 将返回超出末端迭代器。
+*如果所查找的键不存在，而且比 multimap 容器中所有的键都大（都大！！！），则 low_bound 也将返回超出末端迭代器。
+*若该键没有关联的元素，则 lower_bound 和 upper_bound 返回相同的迭代器：都指向同一个元素或同时指向 multimap 的超出末端位置
+
+
+10.6. Using Containers: Text-Query Program
+
+
+
+
+
+
+
+
+
+
+
+
+

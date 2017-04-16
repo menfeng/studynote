@@ -1,0 +1,279 @@
+第十六章 模板和泛型编程
+所谓泛型编程就是以独立于任何特定类型的方式编写代码
+泛型编程与面向对象编程一样，都依赖于某种形式的多态性，在泛型编程中，我们所编写的类和函数能够多态地用于跨越编译时不相关的类型
+
+16.1. Template Definitions
+16.1.1. Defining a Function Template
+template <typename T>     int compare(const T &v1, const T &v2){}模板形参表不能为空。可以是表示类型的类型形参，也可以是表示常量表达式的非类型形参
+1*Template Parameter List
+2*Using a Function Template
+3*inline Function Templates
+template <typename T> inline T min(const T&, const T&);   注意位置
+16.1.2. Defining a Class Template
+ template <class Type> class Queue {
+     public:
+         Queue ();                // default constructor
+         Type &front ();          // return element from head of Queue
+         const Type &front () const;
+         void push (const Type &); // add element to back of Queue
+         void pop();              // remove element from head of Queue
+         bool empty() const;      // true if no elements in the Queue
+     };
+Using a Class Template  编译器用用户提供的实际特定类型代替 Type，重新编写 Queue 类
+16.1.3. Template Parameters
+可以给模板形参赋予的唯一含义是区别形参是类型形参还是非类型形参。如果是类型形参，我们就知道该形参表示未知类型，如果是非类型形参，我们就知道它是一个未知值。
+Template Parameter Scope
+板形参的名字可以在声明为模板形参之后直到模板声明或定义的末尾处使用，遵循常规名字屏蔽规则；
+用作模板形参的名字不能在模板内部重用：：：：：但在VS2005
+template <class T> T calc(const T &a)
+{
+                 //int T=0;    ---------若在此后加上T m=2.6 会报错，因为此时T仅仅是int型的变量  
+	//return T;    --------仅保留这段代码时无论何时返回0
+	typedef int T;
+	T tmp = a;
+	return tmp;//这段代码calc（2.5）会返回2 ，但是一个double类型的2
+}
+&&&当函数内部或者参数名与类型形参重名时，也会将类型形参屏蔽
+&&&如果函数的参数类型，不包含类型形参，那么编译器无法根据函数实参推断类型形参的值会导致编译错误
+Template Declarations
+template <class T> int compare(const T&, const T&) ;同一模板的声明和定义中，模板形参的名字不必相同。 
+16.1.4. Template Type Parameters
+Distinction Between typename and class
+Designating Types inside the Template Definition
+如果要在函数模板内部使用某个类类型的 类型成员，必须告诉编译器我们正在使用的名字指的是一个类型。否则
+  template <class Parm, class U>
+     Parm fcn(Parm* array, U value)
+     {
+         Parm::size_type * p; // If Parm::size_type is a type, then a declaration  ；If Parm::size_type is an object, then multiplication
+     }-----------应当 在Parm::size前加上typename
+16.1.5. Nontype Template Parameters
+template <class T, size_t N> void array_init(T (&parm)[N]) //注意数组的引用的描述
+     {
+         for (size_t i = 0; i != N; ++i) {
+             parm[i] = 0;
+         }
+     }
+当调用 array_init 时，编译器从数组实参计算非类型形参的值：array_init(y);  // instantiates array_init(double(&)[10]
+Type Equivalence and Nontype Parameters
+对模板的非类型形参而言，求值结果相同的表达式将认为是等价的
+16.1.6. Writing Generic Programs
+模板代码总是要对将使用的类型做一些假设  如支持<操作符
+Writing Type-Independent Code
+编写模板代码时，对实参类型的要求尽可能少是很有益的,虽然简单，但它说明了编写泛型代码的两个重要原则：
+(1)模板的形参是 const 引用。      就可以允许使用不允许复制的类型,并且可提高效率
+                                                    C++ 程序员习惯于使用 != 而不用 <，因为用于模板形参的类型而言，支持== ！=的几率不支持<的几率大
+(2)函数体中的测试只用 < 比较。
+Caution: Compile-Time Errors at Link-Time
+（1）第一阶段是编译模板定义本身时
+（2）第二个错误检测时间是在编译器见到模板的使用时   实参的数目和类型是否恰当
+（3）第三个时间是在实例化的时候，只有在这个时候可以发现类型相关的错误
+
+16.2. Instantiation
+产生模板的特定类型实例的过程称为实例化，模板在使用时将进行实例化，类模板在引用实际模板类类型时实例化，函数模板在调用它或用它对函数指针进行初始化或赋值时实例化。
+Instantiating a Class
+类模板的每次实例化都会产生一个独立的类类型，其他类型无特殊访问权
+Class Template Arguments Are Required
+类模板不定义类型，只有特定的实例才定义了类型
+Function-Template Instantiation
+使用函数模板时，编译器通常会为我们推断模板实参：
+16.2.1. Template Argument Deduction
+Multiple Type Parameter Arguments Must Match Exactly
+模板类型形参可以用作一个以上函数形参的类型，此时这几个形参类型必须匹配，设计者想要允许实参的常规转换，则函数必须用不同类型形参来定义
+eg：：template <typename A, typename B> F
+Limited Conversions on Type Parameter Arguments
+（1）一般而论，不会转换实参以匹配已有的实例化，相反，会产生新的实例  
+（2）const 转换：接受 const 引用或 const 指针的函数可以分别用非 const 对象的引用或指针来调用，无须产生新的实例化。如果函数接受！！！非                                引用类 型，形参类型实参都忽略 const，即，无论传递 const 或非 const 对象给接受非引用类型的函数，都使用相同的实例化。
+（3）数组或函数到指针的转换：如果模板形参不是引用类型，则对数组或函数类型的实参应用常规指针转换
+        另外若函数形参表中有指针，而传一个非指针的类型是不能实例化的
+
+Normal Conversions Apply for Nontemplate Arguments
+eg：  template <class Type> Type sum(const Type &op1, int op2)
+
+Template Argument Deduction and Function Pointers
+ template <typename T> int compare(const T&, const T&);
+     // pf1 points to the instantiation int compare (const int&, const int&)
+     int (*pf1) (const int&, const int&) = compare;
+要求为每个模板形参确定唯一的类型或值。如下情况会出错
+     void func(int(*) (const string&, const string&));
+     void func(int(*) (const int&, const int&));
+     func(compare); // error: which instantiation of compare?
+16.2.2. Function-Template Explicit Arguments
+1**Specifying an Explicit Template Argument             sum(static_cast<int>(s), i); // ok: instantiates int sum(int, int)
+2**Using a Type Parameter for the Return Type       
+template <class T1, class T2, class T3>  T1 sum(T2, T3);     long val3 = sum<long>(i, lng); // ok: calls long sum(int, long)
+3*Explicit Arguments and Pointers to Function Templates
+func(compare<int>); 可消除上面所说问题的二义性
+
+
+16.3. Template Compilation Models
+一般将类定义和函数声明放在头文件中，而普通函数和类成员函数的定义放在源文件中。模板则不同：要进行实例化，编译器必须能够访问定义模板的源代
+标准 C++ 为编译模板代码定义了两种模型，类定义和函数声明放在头文件中，而函数定义和成员定义放在源文件中。不同在于，编译器怎样使用来自源文件的定义
+（1）所有编译器都支持第一种模型，称为“包含”模型       （在头文件中包含cpp）---可能产生多个实例，参考编译器解决
+（2）只有一些编译器支持第二种模型，“分别编译”模型。
+        （函数：我们在函数模板的定义中指明函数模板为导出的，这是通过在关键字 template 之前包含 export ，声明处不用做任何改变
+           类模板： 在cpp中 export template <class Type> class Queue;导出整个类，也可仅仅导出个别成员函数，没有导出的必须在用成员时可见，定义放在头文件中)
+Caution: Name Lookup in Class Templates
+模板包含两种名字：
+（1）独立于模板形参的那些名字   设计模板的人员应当关心的
+（2）依赖于模板形参的那些名字   使用模板的人员应当关心的
+         关心是指以这些类型相关的声明是否可见
+
+16.4. Class Template Members 
+Queue Implementation Strategy
+使用两个类
+（1）QueueItem 类表示 Queue 的链表中的节点，该类有两个数据成员 item 和 next
+（2）Queue 类也有两个数据成员：head 和 tail
+References to a Template Type in the Scope of the Template
+当使用类模板的名字的时候，必须指定模板形参。在类本身的作用域内部例外-->不用指定模板形参：但是编译器不会为类中使用的其他模板的模板形参进行这样的推断。
+16.4.1. Class-Template Member Functions
+必须以关键字 template 开头，后接类的模板形参表。必须指出它是哪个类的成员。类名必须包含其模板形参。
+template <class T> ret-type Queue<T>::member-name
+
+Instantiation of Class-Template Member Functions
+16.4.2. Template Arguments for Nontype Parameters
+非类型模板实参必须是编译时常量表达式，不能时某个变量，即使是已经赋值的变量。
+16.4.3. Friend Declarations in Class Templates
+（1）普通非模板类或函数的友元声明，将友元关系授予明确指定的类或函数。
+          friend class FooBar;
+         friend void fcn();
+（2）类模板或函数模板的友元声明，授予对友元所有实例的访问权
+        模板类或函数不用事先声明， 编译器将友元声明也当作类或函数的声明对待。
+        template <class T> friend class Foo1;
+        template <class T> friend void templ_fcn1(const T&);
+（3）只授予对类模板或函数模板的特定实例的访问权的友元声明。
+         模板类或函数必须事先声明
+          friend class Foo2<char*>;
+          friend void templ_fcn2<char*>(char* const &);
+更为常见的是：
+template <class Type> class Bar {
+         friend class Foo3<Type>;
+         friend void templ_fcn3<Type>(const Type&);
+     };
+Declaration Dependencies
+16.4.4. Queue and QueueItem Friend Declarations
+Making a Function Template a Friend
+16.4.5. Member Templates
+任意类（模板或非模板）可以拥有本身为类模板或函数模板的成员，这种成员称为成员模板，成员模板不能为虚。
+Defining a Member Template
+Defining a Member Template Outside the Class
+  template <class T> template <class Iter>
+     void Queue<T>::assign(Iter beg, Iter end)
+     {
+         destroy();            // remove existing elements in this Queue
+         copy_elems(beg, end); // copy elements from the input range
+     }
+Member Templates Obey Normal Access Control
+Member Templates and Instantiation
+类模板形参由调用函数的对象的类型确定，成员定义的模板形参的行为与普通函数模板一样。这些形参都通过常规模板实参推断
+16.4.6. The Complete Queue Class
+16.4.7. static Members of Class Templates
+类的每个实例化有自己的 static 成员，与任意其他成员函数一样，static 成员函数只有在程序中使用时才进行实例化
+Defining a static Member
+template <class T>    size_t Foo<T>::ctr = 0; // define and initialize ctr
+
+16.5. A Generic Handle Class
+16.6. Template Specializations
+为什么需要特化？
+（1）我们并不总是能够写出对所有可能被实例化的类型都最合适的模板
+（2）可以利用关于类型的一些特殊知识，编写比从模板实例化来的函数更有效率的函数。
+
+16.6.1. Specializing a Function Template
+该定义中一个或多个模板形参的实际类型或实际值是指定的。特化的形式如下：
+ template <>                                             //需要一对尖括号
+     int compare<const char*>(const char* const &v1,const char* const &v2)//注意函数参数为对const char* 这个类型 的常量引用
+     {
+         return strcmp(v1, v2);
+     }
+Declaring a Template Specialization
+与定义相同仅仅需要省去定义，如果可以从函数形参表推断模板实参，则不必显式指定模板实参：
+eg：
+template <>    int  compare(const char* const &v1,const char* const &v2)
+Function Overloading versus Template Specializations
+当定义非模板函数的时候，对实参应用常规转换；当特化模板的时候，对实参类型不应用转换。在模板特化版本的调用中，实参类型必须与特化版本函数的形参类型完全匹配，如果不完全匹配，编译器将为实参从模板定义实例化一个实例。
+Duplicate Definitions Cannot Always Be Detected
+        与其他函数声明一样，应在一个头文件中包含模板特化的声明，然后使用该特化的每个源文件包含该头文件。使得所有使用该模板的程序都能一致的选择到底是使用模板特化还是直接从模板实例化
+Ordinary Scope Rules Apply to Specializations
+        在定义或声明某模板的特化之前，此模板的声明必须先出现在定义域中，在使用模板的特化之前，此特化的声明必须在定义域中
+
+16.6.2. Specializing a Class Template
+为什么需要特化？
+如当用于 C 风格字符串时，Queue 类具有与 compare 函数相似的问题
+Defining a Class Specialization
+（1）注意利用现有模板，如我们的queue中char*的特化，可以用queue<string>来实现
+（2）特化中没有定义的成员，那么特化的对象就不能使用，因此特化版本的接口最好与模板相同。
+Class Specialization Definition
+ template<> class Queue<const char*> {}
+在类特化外部定义成员时，成员之前不能加 template<> 标记。
+  void Queue<const char*>::push(const char* val)
+     {
+         return real_queue.push(val);
+     }
+
+16.6.3. Specializing Members but Not the Class
+我们可以仅仅特化两个函数
+ template <>   void Queue<const char*>::push(const char* const &);
+ template <>   void Queue<const char*>::pop();
+这些声明应放在 Queue 类的头文件中。
+
+16.6.4. Class-Template Partial Specializations
+类模板有一个以上的模板形参，我们也许想要特化某些模板形参而非全部，类模板的部分特化本身也是模板。部分特化的定义看来像模板定义
+template <class T1>   class some_template<T1, int> {};
+Using a Class-Template Partial Specialization
+特化版本会优先于通用模板
+
+
+16.7. Overloading and Function Templates
+函数模板可以重载：可以定义有相同名字但形参数目或类型不同的多个函数模板，也可以定义与函数模板有相同名字的普通非模板函数
+Function Matching and Function Templates
+重载函数中既有普通函数又有函数模板：
+（1）根据名字确定候选集合（包括模板实例，和非模板函数）
+（2）根据参数确定那个可行集合（模板实例均是可行的）
+（3）如果需要转换，根据转换类型排列可行函数，二义性就取出所有模板实例
+（4）还二义性，就出错了
+     template <typename T> int compare(const T&, const T&);
+     int compare(const char*, const char*);
+
+     char ch_arr1[] = "world", ch_arr2[] = "hi";
+     compare(ch_arr1, ch_arr2);//两个版本均需要进行数组到指针的转化，选择普通函数
+
+Conversions and Overloaded Function Templates
+    char *p1 = ch_arr1, *p2 = ch_arr2;
+     compare(p1, p2);                    //会调用函数模版
+
+如果再加上template <typename T> int compare2(T, T);
+     compare(ch_arr1, ch_arr2);                   // calls compare(T, T) with T bound to char*
+     compare(p1, p2);                            // calls compare(T, T) with T bound to char*
+     parameters compare(const_arr1, const_arr2);// calls the ordinary function taking const char*
+     const char *cp1 = const_arr1, *cp2 = const_arr2;
+     compare(cp1, cp2);                        // calls the ordinary function taking const char* parameters
+
+设计既包含函数模板又包含非模板函数的重载函数集合是困难的，因为可能会使函数的用户感到奇怪，定义函数模板特化几乎总是比使用非模板版本更好。
+注：整个16.7VS2005不符合，详情请见本章example16.7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

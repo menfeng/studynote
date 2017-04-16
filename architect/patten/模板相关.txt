@@ -1,0 +1,26 @@
+1.C++编译器不能支持对模板的分离式编译
+//-------------test.h----------------//
+template<class T>
+class A{
+public:
+	void f(); // 这里只是个声明
+};
+
+//---------------test.cpp-------------//
+#include"test.h"
+template<class T>
+void A<T>::f()
+{
+	…	//实际test.obj中没有f的二进制代码
+	…	//因为当一个模板不被用到的时侯它就不该被实例化出来
+}
+
+//---------------main.cpp---------------//
+#include"test.h"
+int main()
+{
+	A<int> a;
+	f(); //main.obj 希望到 test.obj 中链接f
+}
+
+
