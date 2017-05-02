@@ -1,13 +1,22 @@
 音变
-    tds,lmnr,ghk
-    bpfv:scrib,script
-    g&ct
+    tds
+	lmnr
+	ghk
+	uvw
+	bpfv:scrib,script
+    ct&g
 		right:correct
 		antagonist anta+agon+ist
+	s&c	spic spis
+
 
 词性变化
     动词-名词
-        ate    ation
+        ate    	ation
+		able	ability
+
+a+辅+辅	加强
+di+辅+辅	dis 否定,发散
 
 前缀
     circum		圆圈circumscribe
@@ -29,6 +38,8 @@
 	philo		爱 filo-vilo
 	re			反复，往回
 	pro			向前
+	ob			否定obstacle
+	de			向下 否定 加强
 后缀
     ure 		名词scripture 
     ion 		名词
@@ -43,9 +54,27 @@
     ive    		形容词impassive 名词antive	fugitive逃犯	native本地的	naive天真的
 				pervasive遍布的	repulsive厌恶(往回推)
 	ist			人 feminist女权主义者 antagonist
+		or er ant ese ee
 	ism			名词
 	ic			名词，形容词fanatic，狂热的	apathetic无感情的
 	et			小东西 wallet
+	ous			形容词(有多的意思)suspicious 
+	acle		名词spectacle
+	ar			名词liar
+	ant			形容词important accountant
+	ate			动词 形容词 名词
+	ary			形容词imaginary,primary,elementary,anniversary,stationary,mercenary 名词dictionary,
+	al			形容词 名词 personal,animal,rival(竞争对手 河),congenial(天生的)
+	ics			名词 学科
+	ia			名词，病
+	ial			形容词	special
+
+
+词根
+	dict		说话
+	st			站立
+	merc		商业
+
 
 词根
 scrib(多动词)，script(多名词)
@@ -122,8 +151,295 @@ spect,spic=look,see看
 		prologue	前言
 		propel		推动
 	prospective		将来的
+	prospectus		计划书
+		procedure	程序	ced走
+		prognosis	预测
+		consensus	一致	sense感觉
+	respectable		可敬的
+	respectful		充满敬意的
+	retrospect		回顾	retro intro extro 方向+tro=方向
+		retrograde	退化	
+		retrogress	倒退	gress progress进步 aggressive上进的
+	retrospective	回顾的
+	suspect			怀疑	sus向下
+		suspend		暂停	pend悬挂
+	suspicion		怀疑
+	suspicious		多疑的
+		lustrous	有光泽的		lus光
+		mountainous	多山的
+	spectacle		奇观
+		miracle		奇迹
+		obstacle	障碍 ob否定 st站立
+		manacle		手铐 man手
+	spectacular		奇妙的	ace+ular
+		liar		撒谎的人
+		familiar	熟悉的
+		linear		线性的
+	spectator		观众ate+or
+	speculate		思索	ul连接作用 ate
+		innate		天生的	nat出生，自然
+		moderate	中等的	
+		delegate	代表
+	speculation		思索
+	conspicuous		显眼的
+	despise			轻视	
+	perspicacious	有洞察力 acious复合后缀
 
 
+ras，rad=scrape		刮擦
+	erase			擦掉
+	eraser			橡皮
+	obrade			磨损	ab加强
+	abradant		ant
+		extravagant	浪费的
+		exuberant	茂盛的
+	obrasive		有打磨作用的
+	raze			铲平
+	razor			剃刀
+
+14
+limin,lim=threshold	门槛，限制
+	limit			限制
+	lim				line
+	eliminate		消灭	e向外
+		exalt		拔高	ex+alt高(tall)
+		expel		驱逐	ex+pel推
+		expurgate	删除	ex+purg(冲洗)+ate
+	preliminary		预备的	pre+limin+ary(入门前)
+	subliminal		潜意识	sub+liminal(线下)
+	supraliminal	有意识的	supra(上面)+limin+al(线上)
+		superficial	表面的
+		supervise	监督
+	sublime			崇高的	有底线
+	sublimate		升华，提高
+	delimit			定界限	
+		depict		描绘	pict描绘
+		defame		诽谤	fame名声	famous
+
+per=try	尝试
+	experience		经验	ex+per+i+ence(名词)
+	experiment		试验	ex+per+i+ment(名词)
+	peril			冒险	il	ile(形容词，名词)
+		juvenile	青少年的
+		missile		导弹
+		tortile		弯曲的
+		senile		老年的	sen高级的
+	perilous		危险的	perilous
+	empiric			经验主义者	em进入+pir+ic
+		antibiotic	抗生素	anti+bio+tic
+	empirical		靠经验办事的
+	empiricism		经验主义
+
+path=feeling,suffering,illness	感情痛苦
+	pathetic		可怜的，动情的
+	antipathy		反感
+	apathy			冷淡
+	apathetic		冷漠的
+	sympathy		同情，怜悯 sym共同相同
+	pathology		病理学
+	psychopath		精神病人 psycho精神病患者
+	electropathy	电疗法	electro 电的
+
+lingu=language		age名词，语言
+	linguist		语言学家
+		feminist	女权主义者 femin-female
+		antagonist	敌手	   ant+agon==ag(做事情)	对着+挣扎
+		arsonist	纵火犯
+	linguistics		语言学istics复合后缀
+		economicics	经济学
+		pediatrics	小儿科	ped+ia+tr+ics	脚,儿童,教育+病+treat(治疗)+学科
+			insomnia失眠症	in+somn+ia 		否定+睡觉+病
+		genetics	基因学	
+	bilingual		两种语言的
+		bicycle
+		recycle
+	unilingual		一种语言的
+		uniform		制服
+		unison		和谐，同音	son声音sound
+	multilingual	懂多种语言的
+		multiply	乘	
+		multimedia	多媒体	multi+med+ia	多+中间
+		multiparous	一胎多子
+	sublingual	舌下的
+
+fid=trust faith		相信 信任
+	confidence		自信
+	confident		自信的
+	fidelity		忠贞	el名词
+		novel		
+		model
+		personnel	全体工作人员
+		parcel		包裹
+
+	confide			吐露，信托	con+fid
+		conflict	冲突	con+flict	全部+打
+		confluence	汇流	con+flu+ence
+		consolidate	巩固	con+solid+ate
+	confidant		知心朋友con+fid+ant 
+		exuberant	茂盛的	ex+uber+ant	外+发达+ant
+		extravagant	奢侈的	extra+vag+ant	外+走	往外走的程度大
+	confidential	机密的	ial 相信的人才说
+		impartial	公正的	im+part+ial	没+部分+(倾斜)
+		beneficial	有益的	bene+fic+ial	好+做+形容词
+	diffident		自卑的	di+辅+辅 否定
+		diffuse		扩散	dif+fus+e	分开+流
+	perfidy			背叛	per(假，坏)+fidy
+		pervert		变态	per+vert(转)	不好方向转
+		perjury		为证
+	perfidious		背信弃义
+	infidel			没信仰的人	el名词
+	affidavit		口供书，宣誓书	avit名词	
+
+doc doct=to teach	教，古板的
+	doctor
+	document
+	doctoral		博士的	or+al 名词+形容词
+	doctrinaire		空谈家	aire名词
+		millionaire	百万富翁
+		questionaire调查问卷
+	docile			可教的	ile 形容词 名词
+		senile		老年的
+		tortile		扭曲的	tort+ile	扭曲+形容词
+	indocile		难驯服的
+
+Fract=break			打碎	bpfv	fr=br	a=ea	ct=g=k
+	fraction		部分
+		concision	简洁	cis砍
+		consolation	安慰	sol太阳，单一+ation 		solar太阳的
+		convocation	召集	voc召集						vac空	vacant空的
+	fractional		碎片的
+		empirical	以经验为主的	pir=per尝试
+		fatal		致命的			fat命运	fate命运
+	fractious		易怒的			ious
+		prosperous	繁荣的			pro+sper	向前+希望
+		desperate	绝望的			de+sper		没有+希望
+		circuitous	迂回的			circ+it	绕圈+走	
+	fracture		骨折			ure
+		torture		酷刑			tort	扭曲
+		expenditure	支出			expend 	花费	
+		signature	签名			sign+ate+ure	标记
+	diffract		分解
+	infraction		违反			in往里
+	refract			反射			re往回
+		reverse		反转			verse=vert转动
+		repugnant	回向的	
+	refraction		折射作用
+	refractory		倔强的			ory 名词(多表地方)，形容词 	意愿折断
+		contradictory	矛盾的		contra+dict相反+说话
+		factory			工厂		fact做
+		compulsory		强制的		com+puls所有的+推拉
+		inventory		财产清单	in+vent往里+走路	
+	fragile				易碎的		ct=g	ile名词，形容词
+		tortile			扭曲的
+		servile			奴性的		serv服务
+		ductile			可塑的		duct引导	introduce
+	fragility			脆弱		ity	
+		equanimity		镇定
+		duplicity		欺骗
+	fragment			碎片		ment名词
+		segment			部分		seg=sect切割
+		section			部分
+		garment			衣服		gar装饰
+
+pur,purg=pure			纯洁
+	purge				是清洁
+	purity				纯净
+	impure				不纯的
+	impurity			不纯
+	purify				使清洁
+		classify		分类
+		dignify			使高贵	dign值得，高贵
+		fortify			加固
+	purist				纯粹主义者
+	puritan				清教徒
+	purgation			清洗
+	purgative			清洗的
+		sanative			有疗效的
+		sedative			镇静的
+	expurgate			订正 向外+冲洗
+
+ped=child,education	儿童，教育
+	pediatrics			儿科治疗学
+	encyclopedia		百科全书	360教育
+	pedology			儿科学
+		psychology		心理学	psycho心理
+		chronology		年代学	chron 时间
+		sociology		社会学
+		theology		神学	the神
+		anthropology	人类学	anthrop人类android
+	pediatrist			儿科医生
+		linguist		语言学家
+		sophist			博学之人
+		optometrist		验光师		opto光 metr测量
+		egoist			利己主义者
+		terrorist		恐怖分子	terr恐怖
+	pedant				迂腐的教师
+		deodorant		除臭剂de+odor向下，否定，加强+味道
+		inhabitant		居民in+habit	进入+习惯
+	pedantry			迂腐的，卖弄学问		ry多放完整单词后表名词
+		rivalry			竞争
+		husbandry		农耕	hus房子
+		peotry			诗歌	peot诗人
+	pedagogy			教学法，教育学 agog表示引导
+		demagogue		煽动者
+
+pen,pun=penalty			处罚
+	punish				处罚
+		snobbish		势利眼的adj
+		flourish		繁荣v
+		irish			爱尔兰的/语n
+	penance				赎罪	ance
+		vigilance		警惕	vig/viv+ilance 	生命+ile+ance
+		resemblance		相向	re+sembl+ance	re+类似
+	penal				刑罚的
+	penalty				惩罚
+	penalize			宣告有罪 处罚 ize动词
+		neutralize		使中合
+		aggrandize		扩张
+	penitent			后悔
+		antecedent		先行者
+	repent				后悔
+	impunity			免罚
+		impassive		无动于衷	pass情感	passion激情
+		innocuous		无害的		noc毒
+
+pel,puls=drive,push		驱动
+	compel				强迫
+	compelling			激发兴趣的
+	expel				开除
+	impel				推进，驱动
+	dispel				驱散
+	propel				推进
+	propeller			推进器
+	repel				抵制，击退
+	compulsion			强制
+	compulsory			强制性的
+	expulsion			驱逐
+	pulse				脉搏
+	pulsate				脉动v
+	impulse				冲动
+	impulsive			冲动的
+	propulsion			推进力
+	repulse				打退
+	repulsive			击退的，排斥的
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
 
 
 
