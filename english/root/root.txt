@@ -14,9 +14,15 @@
     动词-名词
         ate    	ation
 		able	ability
+		ant ance，ancy
+	形容词-名词
+	id			idity	
 
-a+辅+辅	加强
+a+辅+辅		加强
 di+辅+辅	dis 否定,发散
+e+辅+辅		ex向外	effloresce
+i+辅+辅		否定
+co+辅+辅	com=con共同
 
 前缀
     circum		圆圈circumscribe
@@ -423,16 +429,421 @@ pel,puls=drive,push		驱动
 	repulse				打退
 	repulsive			击退的，排斥的
 
+tact,tag,tig,ting=touch	接触
+	contact				接触，联系
+	tactual				触觉的	al形容词
+		temporal		临时的	tempor时间
+		terminal		终点的	termin界限
+		trivial			琐碎的	tri三via道路
+	tactility			触觉	ility=ile+ity
+		mobility		移动性	mob移动
+		servility		奴性	serv服务
+		civility		谦恭	civ文明
+		hostility		敌对	host敌对
+	intact				未触动的
+		inhuman			无人性的
+	tact				机智
+	tactics				战术	ics名词后缀
+		dynamics		动力学	dynam动力
+	contagion			传染
+	contagious			传染的
+	tangible			能触知的，明确的
+		flexible		灵活的
+		eligible		合格的lig lict 选择
+		invincible		不可战胜的vin win
+	intangible			不能接触的
+
+sper=hope				希望
+	desperate			绝望的
+	desperation			绝望
+	desperado			亡命徒	ado名词后缀
+		tornado			龙卷风	torn turn旋转
+	despair				绝望
+	prosper				繁荣
+	prosperous			繁荣的
+	prosperity			繁荣昌盛
+	asperity			粗糙a否定
+
+flor,flour=flower		花
+	floral				花的al
+		mortal			致命的mort死 mortuary停尸房
+		mutual			相互的mut相互
+	floret				小花		et名词，小的东西
+		circlet			小圈
+	florid				华丽的	id形容词
+		acid-acidity	酸的
+		fluid			流动的
+		invalid			无效的val价值
+	florescence			开花期		escence
+		candescence		发光		cand白candid坦白的candidate候选人
+		luminescence	发光		lumin光		
+	floriculture		花卉栽培	cult培养
+	defloration			摘花，奸污	de向下，否定，加强
+		define			定义		fin范围
+	effloresce			花开放		eff ex esce名词
+		effervesce		冒气泡		ferv热
+	flourish			繁荣
+	flourishing			兴旺的
+
+voc,vok=call voice		叫喊，声音
+	voice--voc,vok
+	vocal				声音的
+	vocalist			歌手
+	vocation			职业，使命(上天的声音)	vac空 voc
+	avocation			副业
+	advocate			拥护，倡议ate
+		attenuate		变薄	tenu拉长
+		effeminate		柔弱	femi女
+	advocator			拥护者
+		gladiator		角斗士	gladi剑
+		dictator		独裁者	dict说话
+	convoke				召集
+		congregate		聚集	greg:group群体
+		contemporary	同时代的tempor时间
+	convocation			召集
+		agitation		鼓动ag=act做 it走
+		emancipation	解放	e外 man手 cip抓	用手抓到外面
+	revoke				取消
+	revocable			可废除的
+	irrevocable			不能改变的	
+		irreversible	不能改变的
+		irreconcilable	不可调和的
+	vociferous			喧闹的	fer带来
+	evoke				唤起
+	equivoke			双关语	equ相等
+	equivocal			双关语
+		equivalent		相等的
+		equilateral		等边的
+	invoke				请求	说到心里面
+	invocatory			祈求的
+	provoke				触怒
+	provocative			激怒人的
+
+gnos(t),gnor=know		知道
+	ignore疏忽
+	ghk=iknore
+	gnosis				灵知sis名词
+		heliosis		中暑helio太阳
+		hypnosis		催眠
+	diagnosis			诊断	dia在..之间
+		diameter		直径
+		diagonal		对角线	gon角
+	prognosis			预测，诊断
+		projector		投影仪	ject扔	reject拒绝
+		propel			推进	pel推
+		procrastinate	拖延	crastin明天
+	prognostic			预兆的	征兆	ic形容词 名词
+		static			静态的	st存在
+		chaotic			混乱的	chaos混乱
+	agnostic			不可知论的
+	ignorance			无知ance
+		surveillance	监视	sur上面	veil看
+		endurance		忍耐力 en使dur持续
+		repugnance		抵触
+grep=group				群体
+	gregarious			群居的 爱社交的arious	ary+ious
+		nutritious		有营养的nutrit营养nutrition
+		arduous			努力的ard=hard难
+		dubious			半信半疑
+	aggregate			合计
+		confiscate		没收fisc财产
+		fluctuate		波动flu流动
+		contemplate		沉思templ寺庙
+	aggregation			聚集物
+	congregate			聚集
+		concession		妥协	cess走	各走一步
+		confabulate		交谈	fabul说话
+	disaggregate		分解
+		discuss			讨论	dis发散cuss震动
+		concussion		脑震荡
+		dismount		下车	mount攀登
+	egregious			过分的
+	segregate			分开	se分开
+		separate		分离
+		secluded		隔绝	clud=close关闭
+		secede			脱离	ced走
+	segregation			隔离
+
+reed,cred=believe,trust	相信，信任
+	credence			相信
+		eminence		杰出e+min突出，尖
+		turbulence		骚乱turb+tort旋转	ul在后缀前连接作用
+	credit				信任，学分
+	credible			可靠的
+		comprehensible	可以理解的com+prehens抓(前+手)
+		irresistible	不可抵抗的	re往回+sist站立
+	accredit			委任	ac加强
+	discredit			不信任
+		disperse		散步spers散开
+		dysphoria		烦躁不安phor=fer带来 ia病
+		dyslexia		阅读障碍lex词+ia病
+		dyspepsia		消化不良pep管子+ia病
+	credulous			轻信的 ous多
+	incredulous			不轻信的
+	incredulity			不轻信
+
+dict,dic=say,assert		说话，断言
+	dictionary			字典
+	dictate				口授 命令 听写ate
+		coagulate		凝结co全部 ag做
+		eradicate		根除e外 rad根(从一个点发散radio)
+	dictator			发命令者ator ate+or
+		agitator		鼓动者 ag+it
+		incubator		孵化器in +cub躺
+	dictum				格言 断言
+	benediction			祝福	bene好
+		benevolent		善心的	vol=will意愿
+		benefaction		好事	fact做
+	malediction			恶言male
+		malnutrition	营养不良
+		malediction		诅咒 dict
+		malefaction		坏事 fat做
+		malodor			恶臭 mal+odor气味	male坏
+		maltreat		虐待 mal+treat对待
+	contradict			反驳contra
+		contravene		违反	ven走
+		contraband		走私	band命令
+		contradictory	矛盾的
+		jurisdiction	司法权	juris法律
+	predict				语言
+		premonish		预告
+		prescient		有先见的
+	prediction			语言
+	indict				起诉
+	indictment			起诉
+	abdicate			放弃，退位ab=away
+	dedicate			献身于 de加强
+	vindicate			辩护 拥护	vin胜利
+		invincible		不可战胜的
+	addict				上瘾	ad加强
+	addiction			沉溺
+	verdict				裁判	ver真实
+		verify			证实
+		veracious		诚实的	acy+ious
+
+fore,fort=strong		强大
+	force				力量
+	forceful			有力的
+	enforce				强行
+	reinforce			加强
+	fort				要塞
+	fortress			堡垒
+	fortify				加强
+	fortitude			刚毅
+	effort				努力
+	comfort				安慰
+	comfortable			愉快的
+	discomfort			不安的
+
+claim,clam=shout		呼喊
+	claim				要求
+	clamor				喧哗
+		precursor		先驱	curs跑
+		detector		探测器	de	下		tect盖子
+		mentor			导师	ment精神 	mental脑力的
+	clamorous			吵闹的orous
+		vacuous			无意义的vac空
+		assiduous		勤勉的sid=sit=坐
+	acclamation			喝彩tion
+		collaboration	合作	labor劳动
+		emancipation	解放	e外man=manu手cip=cept=capt拿
+		excruciation	酷刑
+	declaim				抨击
+		decrypt			解密	crypt秘密encrypt
+		deduce			推论	duce牵引
+		degrade			降级	
+	declamation			慷慨演说
+	exclaim				叫喊
+		exhibit			展览	hibit拿		hold it拿着走
+		expatriate		逐出国外patr=father=引申为祖国
+		expedite		公布
+	exclamation			叫喊
+	proclaim			公布
+		prostitute		卖淫者	pro前stit站立ude
+		protrude		伸出
+	proclamation		宣告
+	reclaim				收回
+		revenge			报仇	venge惩罚punish-》win
+		revise			修正	re老是vise看
+
+clear,clar,clair=clear,bright	清楚明白
+	clearance			清算
+	clarify				澄清
+		amplify			放大	ampl大
+		calcify			钙化	calc石头
+	clarity				清楚
+		density			比重	dense浓密的
+		integrity		完整	inte之间	gr群里
+	clarification		澄清
+	declare				宣称
+	declaration			定言
+	clairaudient		有超人听力的
+		audience		听众
+		audible			听得见的
+		inaudible		听不见的
+		auditorium		礼堂
+
+err=wander，mistake		漫游，犯错
+	error
+	errant				漫游的，错误的
+		hydrant			水龙头	hydr水
+		pendant			下垂物	pend悬挂 penis阴经
+		vigilant		警惕	vig生命
+	erratum				正误表
+		calcium			钙
+		auditorium		礼堂
+		solarium		日光浴室
+	erroneous			错误的
+		perfidious		背信弃义	per坏fid信任
+		fugacious		易散去		fug跑
+		hydrous			含水的
+		anhydrous		无水的
+	erratic				古怪的
+		static			静止的
+		chromatic		彩色的		chrom颜色
+			monochrome		单色的 	mono单一
+			chromosome		染色体	some肉体
+				somatic		躯体的
+	aberrant			越轨的	
+		vibrant			震动的vibr震动
+		vibrate			摇动
+		vibration		震动
+	aberration			越轨，失常
+	inerrancy			无错误
+
+sol=sun					太阳，单一
+	solarize			晒太阳
+		summarize		概括		summ总，加
+		agonize			感到苦恼	agon挣扎斗争
+		agony			痛苦
+	parasol				遮阳伞		para在旁边
+		paradox			相矛盾		dox观点
+	solarium			日光浴室
+		stadium			露天大型体育场
+	insolate			暴晒
+	solace				安慰
+	console				安慰
+
+cruc,crus,crux=cross	十字
+	crucial				关键的，十字的
+		diluvial		大洪水的 de加强 lav，luv，lut=wash，洗
+			lavish		浪费
+			lavatory	洗手间	ate ory地方
+			ablution	沐浴	ab否定，加强
+			dilute		冲淡	
+			dilution	冲淡
+	cruciform			十字形的
+		transform		变形
+		uniform			一致的
+		conform			使一致
+		formulate		公式化 后缀前ul表连接作用
+		deform			使残废，变形	de否定
+	crucify				钉在十字架上，折磨
+	crusade				十字军，改革运动	ade名词	decade	dec十
+	crusader			十字军战士，改革者
+	excruciate			受酷刑，拷打	外 钉在十字上
+		excurse			远足 旅游	curse跑
+		exempt			免除		empt拿
+		exemption		免除
+	excruciation		酷刑
+	cruise				巡航，徘徊	ise动词，名词
+		jeopardize		危害ize动词		jeopard伤害
+	cruiser				巡航舰
+	curx				难点
+
+fall，fail，fault=err，deceive犯错误，欺骗
+	fallacy				错误	acy
+		accuracy		正确	ac加强	cur关心care
+		supremacy		至高无上
+		intimacy		亲密的	intim亲密(不害怕)	tim害怕
+	fallacious			犯错误的	acious多
+		perspicacious	有判断力的	per穿过	spic看
+		rapacious		强夺的		rap强
+	fallible			易错的		ible形容词
+		gullible		受骗的
+	infallible			不可指责的
+	falsehood			虚伪
+	falsify				篡改
+	falsification		伪造	fic做	artificial 人工的
+	failure				失败
+		conjecture		推测	ject扔
+	fault				错误
+	default				违约
+
+pend,pens,pond=weight,expend 称重，花费
+	expenditure			支出，开销	iture名词 ure
+		acupuncture		针灸	acu尖，算	punct尖
+		acid,acri,acrid,acu=sour,sharp尖，酸，锐利
+		acid			酸的
+		acidify			酸化
+		acidity			酸度
+		acidulous		尖酸刻薄的
+		acrid			辛辣的
+		acute			尖锐的
+		acuity			尖锐
+		punctual		准时的
+		punctuality		守时
+	expensive			昂贵的 ive
+		derisive		嘲笑的	de ris笑
+		reclusive		隐居的	clus关闭
+		fugitive		逃亡的	fug跑
+		repulsive		排斥的	re回 puls推
+	pension				年金
+	compensate			赔偿	ate动词 形容词
+		perpetuate		使永久	per pet追求	competition
+		petition		请愿	pet追求
+		petitioner		请愿者
+		appetite		欲望 胃口
+		appetizer		开胃食品
+		centripetal		向心的	centri
+		compete			竞争的
+		competent		资格的 能力的	ent动词 名词 形容词
+		competence		资格
+		competitive		有竞争力的
+		incompetent		无能的
+		impetus			动力	im内
+		impetuous		冲动的
+		perpetual		永久的
+		petulant		脾气暴躁的		ant形容词 名词
+	dispense			分配			dis否定 发散
+		dissident		持不同意见的	sid=sit	坐的分散
+		reside			居住			天天呆这里
+		residence		居住
+		preside			主持			做前面
+		president		总统 校长
+		subside			沉淀 平息
+		consider		考虑			都坐在一起
+		considerate		考虑周到的
+		insidious		阴险的			坐在里面的
+		assiduous		勤勉的	
+		sedate			文静的
+		sedulous		勤勉的
+		supersede		代替	sup上
+	dispensable			可分配的，不重要的
+	dispensary			药房			散钱的地方
+	propensity			倾向
+	pensive				思考的			钱，要思考下	
+	ponder				沉思
+	ponderance			重要
+	ponderous			重的
+	
+
+
+
+
+
+
+
+
+
+
+
 
 		
 
 
 
-
-
-
-
-
+	
 
 
 
@@ -440,7 +851,6 @@ pel,puls=drive,push		驱动
 
 		
 		
-
-
-
+		
+	
 
