@@ -1,0 +1,7 @@
+import readline, rlcompleter; readline.parse_and_bind("tab: complete")
+这就可以按 Tab 键补全了。
+python 自启动
+如果您嫌每次都要键入这东西麻烦的话，可以把上边这行写到 ~/.pythonstartup.py ，
+再 ~/.bashrc 里加一个环境变量
+export PYTHONSTARTUP=~/.pythonstartup.py
+这就会每次启动 python 都先执行了fd......,,,,,(1,2

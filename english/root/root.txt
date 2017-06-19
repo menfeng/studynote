@@ -1,95 +1,590 @@
-音变
-    tds
-	lmnr
-	ghk
-	uvw
-	bpfv:scrib,script
-    ct&g
-		right:correct
-		antagonist anta+agon+ist
-	s&c	spic spis
+自己不熟悉的领域，选择相信
+	相信
+	实践
+	重复
+记不住的原因:不能再中文和英文之间建立联系
+记单词的层次:首先识记-阅读-熟悉用法
 
+数量:250=50+50+150
+
+prefix
+	大小	:microsoft microwave
+	方向	:exit progress return
+	熟悉单词来记忆
+suffix
+	词性	:animation	personal animal
+	熟悉单词来记忆
+root
+	意思	:reputation
+	1.希腊神话故事 荷马史诗 神谱
+	2.声音 英语音形 中文象形
+		cut 	砍	咔咔咔
+		volv	转动
+		vers	转
+		cel		嗖嗖嗖
+	3.简单单词
+		anim	生命	animal
+		ambul	行走	ambulance
+		luc		光明	lucy
+		viv		生命	vivian
+		erg		能量	energy
+		meter	测量	measure
+	4.音变		音像 书写像
+		tds
+		ghk
+		bpfv:scrib,script
+		lmnr	slim-line	苗条
+		uvw
+		ct&g
+			sect,seg
+			right:correct
+			antagonist anta+agon+ist
+			act=ag做	agnet			代理商
+		s&c	spic spis
+
+		元音	发音的，随便变
+		辅音	一般不变，通假才变
+		词源学
+
+接下来
+	词根整理
+	前缀后缀整理
+	星期 半个月 1个月 2个月
+	加强阅读
 
 词性变化
-    动词-名词
+    动词-名
         ate    	ation
 		able	ability
-		ant ance，ancy
-	形容词-名词
+		ant 	ance ancy
+	形-名
 	id			idity	
+	al			ality		special speciality
+	ial			iality		social	sociality
+	ent			ency,ence	fluent	fluency	affluent affluence
 
-a+辅+辅		加强
-di+辅+辅	dis 否定,发散
-e+辅+辅		ex向外	effloresce
-i+辅+辅		否定
-co+辅+辅	com=con共同
+辅辅
+	a+辅+辅		加强		affluence	富裕
+	e+辅+辅		ex向外		effloresce
+	i+辅+辅		加强 否定	illustrate
+	o+辅+辅		否定
+	di+辅+辅	dis 否定,发散
+	co+辅+辅	com=con共同
 
-前缀
-    circum		圆圈circumscribe
-    con       	全部，共同
-    in        	表示向内
-    manu		手工
-    post    	在后面
-    pre       	在前面
-    sub    		在下面
-    trans 		改变
-    inter    	之间 interstellar
-    form 		形状 stelliform uniform制服
+prefix
+	dia			在...之间	diameter直径
+	pro			向前		progress进步
+    circum		圆圈		circumscribe限制
+    con       	全部，共同，所有 	concord一致
+    in        	表示向内 否定 		inherent天赋的
+    manu		手工	manual手工的
+    post    	在后面	postclassical古典时期以后的
+    pre       	在前面	preliminary预备的
+    sub    		在下面	subliminal潜意识
+    trans 		改变	transferable能转让的
+    inter    	之间 	interstellar
+    form 		形状 	stelliform uniform制服
     im 			否定，向内 immobile，import
-    auto 		自动
-    e 			ex
-    per    		贯穿pervade 假，坏perfidy 尝试peril
-	anta 		反抗
-	a			ab否定、ad加强
-	philo		爱 filo-vilo
-	re			反复，往回
-	pro			向前
-	ob			否定obstacle
-	de			向下 否定 加强
-后缀
-    ure 		名词scripture 
-    ion 		名词
-    ar    		名词 形容词stellar 
-    ify    		动词    stellify
-    ile    		形容词，名词 juvenile(青少年)，missile(导弹)
-    ize    		动词 automobile
-    ility    	名词后缀 mobility  ile+ity
-    ilize    	名词mobilize ile+ize
-    ish        	动词 finish 名词 english 形容词 childish
-    er    		名词
-    ive    		形容词impassive 名词antive	fugitive逃犯	native本地的	naive天真的
-				pervasive遍布的	repulsive厌恶(往回推)
-	ist			人 feminist女权主义者 antagonist
-		or er ant ese ee
-	ism			名词
-	ic			名词，形容词fanatic，狂热的	apathetic无感情的
-	et			小东西 wallet
-	ous			形容词(有多的意思)suspicious 
-	acle		名词spectacle
-	ar			名词liar
-	ant			形容词important accountant
-	ate			动词 形容词 名词
-	ary			形容词imaginary,primary,elementary,anniversary,stationary,mercenary 名词dictionary,
-	al			形容词 名词 personal,animal,rival(竞争对手 河),congenial(天生的)
-	ics			名词 学科
-	ia			名词，病
-	ial			形容词	special
+    auto 		自动	autobiography自传
+    e 			外ex	emancipation解放
+	ex			外		exit出口
+    per    		
+				贯穿	pervade弥漫于
+				假，坏	perfidy背信弃义
+				尝试	peril冒险(尝试->冒险)
+	anta 		反抗 	antagonist对手 anta反 agon斗争	ist
+	a			ab否定	asymmetry不对称
+				ad加强	aspire热望(加强呼吸)
+	philo		爱filo-vilo	philosophy(爱智慧->哲学)
+	re			往回		return返回
+				反复不断	reputation名声
+	ob			否定		obstacle障碍
+	de			向下		decide延期
+				否定		desperate绝望的
+				加强		declare宣称
+	syn=sym		相同		synchronize同时发生
+	en			使			energetic使充满活力的
+	an			否定		anergy无力
+	
+suffix
+	ible		形 具备品质	risible爱笑的
+	ule			名 小			globule小球
+	itude		抽象名		rectitude正直
+	age			名			visage面貌
+	ity			名			lucidity光明annuity养老金
+	al			形				personal,congenial情投意合的
+				名 				animal,rival(竞争对手 河)
+	ality		名后缀		cordiality诚心
+    ure 		名			scripture经典
+	able		形			inferable可推知的
+	urable		形			immeasurable不可测量的
+	ature		名ate ure		literature文学
+    ion 		名			adhesion粘着
+	ar			形				stellar星的
+        		名				liar撒谎的人
+    ify    		动词    		stellify 使成星状
+    ile    		形				docile可教的
+				名				juvenile(青少年)，missile(导弹)
+	ize			动词			energize给与能量
+    ility    	名ile+ity		mobility能动性
+    ilize    	名ile+ize		mobilize动员
+    ish        	形 				childish幼稚的
+            	动				finish完成
+            	名				english英语
+    ive    		形				impassive无动于衷的native本地的naive天真的repulsive厌恶(往回推)pervasive遍布的
+				名				fugitive逃犯
+	ist			人 				feminist女权主义者 antagonist敌手
+	or			人				aviator飞行员
+	er			人				biographer传记作者
+	ant			人				accountant会计
+	ese			人				chinese
+	ee			人				refugee		避难者
+	ant			形				important重要的
+				名				accountant会计
 
+	ism			名主义			socialism社会主义
+	et			名小东西 		wallet钱包 closet壁橱
+	ic			形				fanatic狂热的 apathetic无感情的 classic经典的
+				名				cretic批评家
+	etic		形				et名小东西ic形名 energetic充满活力的
+	ous			形(有多的意思)suspicious多疑的  famous著名的
+	ious		形				illustrious辉煌的
+	acious		形				fugacious易散去的 ace ious
+	acle		名				spectacle奇观
+	ate			形				private私有的
+				动				accelerate加速
+				名				associate伙伴
+	tion		名				equation方程式
+	ation		名				aviation飞行
+	ary			形				imaginary想象的,primary初级的,elementary初级的,stationary不动的,mercenary贪财的
+				名				dictionary词典anniversary周年纪念
+	ics			名学科			physics物理学
+	nomy		名学科			astronomy天文学
+	ology		名学科			sociology社会学
+	ia			名病			insomnia失眠
+	ial			形				special特殊的
+	ential		形ent+ial		inferential推理的
+	id			形				lucid透明的
+	ed			形				excited激动的
+	ac			形				cardiac心脏病的
+	icle		名				article文章
+	ent			形				coherent连贯的
+				动				
+				名				adherent归依者
+	ence		名				adherence粘附
+	ency		名				fluency流利
+	ment		名				conferment给予
+	acy			名				adequacy足够
+	ace			名
+	ator		名				equator赤道
+	ue			名				catalogue目录 value价值
+	ual			形 				spiritual精神的
 
-词根
-	dict		说话
-	st			站立
-	merc		商业
+root summary
+	put							reputation	思考re put action
+	ambul=walk					ambulance	行走 走路
+	anim=life,spirit			animal		生命
+	av,avar,avi=desire,bird		av			渴望，鸟
+	bio,bi=life					biology		生命，生物
+	cit=quote,call				excited		引用，唤起
+	card,cord=heart				c-k-h,d-t	心脏，一致
+	ann,enn=year				an=1,n年	年 一年
+	chron=time					chronus克努诺斯吞噬小孩 时间吞噬一切 时间
+	fug=flee					fully go	逃，离开	
+	her,hes=stick				he/man/male
+								she/woman/female
+								she->hes	粘附
+	fer=bring					infer|conference		带来 拿来
+	erg=energe，work			energe		能量，活动
+	flu=flow					u-w			流动
+	liter=letter				letter		字母
+	meter,metr,meas,mens=measure	meter-简化metr meas-measure	测量
+	soc=companion				social		同伴,社会
+	clear,clar,clair=clear,bright	clear	清楚 明白
+	cid,cis=cut,kill			d-t			切开，杀
+	astro,aster=star			元音，顺序	星星
+	spir=breathe				普罗米修斯	呼吸
+								雅典娜吹气
+	rect=stright,right			correct|e=i ct=g	正 直
+	rid,ris=laugh				ridiculous	笑
+	scribe,script=write			describe	写
+	stell=star					l-r			星星
+	mob=move					mobile		动
+	soph=wise					sophie			智慧
+	spect,spic=look,see			respect反复看	看
+	Limin,lim=threshold		limit		门槛，限制
+	path=feeling,suffering,illness		感情，痛苦
+	per=try						experience	尝试
+	lingu=language				language	语言
+	fid=trust,faith				confidence	相信 信念
+	fract,frang=break			break		打碎
+	ped=child								儿童 教育
+	ped=foot								脚
+	pen,pun=penalty				punish		处罚
+	pel,puls=drive,push						驱动，推
+	tact,tag,tig,ting=touch		contact		接触
+	sper=hope					desperate	希望
+	flor,flour=flower			flower		花
+	voc,vok=call voice			voice		叫喊，声音
+	gnos(t),gnor=know			g-k 		知道
+	greg=group					group		群体
+	creed,cred=believe,trust	creditcard	相信，信任
+	dict,dic=say,assert			dictionary	说话，断言
+	fore,fort=strong			force		强大
+	claim,clam=shout			claim		呼喊
+	clear,clar,clair=clear,bright			清楚明白
+	err=wander，mistake			error		漫游，犯错
+	cruc,crus,crux=cross		cross		十字
+	fall，fail，fault=err，deceive			犯错误，欺骗
+	lav，luv，lut=wash，		lavyatory	洗
+	pend,pens,pond=weight,expend expensive	称重，花费
+	acid,acri,acrid,acu=sour,sharp			尖，酸，锐利
+	sid=sit									坐
+	hibit=hold 					exhibit		拿住
+	opt opto=sight				optometrist	视力
+	nomin=name					o-a			名字
+	vac,van,void				void		空
+	sati，satis，satur=enough，full of food satisfy足够 饱足
+	vibr=swing摇摆 				vibrant|声音 震动的
+	coct=cook					precocious	煮，调配
+	am,amor,amat=love						爱，情爱	Amor（爱摩尔）是古 罗马 爱神 Cupid（丘比特）的别名
+	cur=care					cure		关心
+	migr=remove 				mi=move	gr=ground 迁移
+	turb=stir					disturb		搅动
+	culp=fault 					couple		错，罪
+	hor(r)=shudder,dread 		horrible	害怕
+	sect,seg=cut,divide			segment		切割
+	sens sent=feel 							感觉
+	viv,vit,vig=life			vivid		生命
+	terr=earth					泰雅 神话 	土地
+	gam=marriage				bigamy		婚姻
+	fin=end,boundary			finish		结束 范围
+	ped=foot								脚的bpfv,tds
+	st							obstacle障碍 ob否定 st站立
+	vis							visit		看vis it	visual
 
+root explanation
+ambul=walk					ambulance	行走 走路	流动医院
+	ambulant				走动的 流动的	ant形名	
+		important			重要的
+		accountant			会计
+		assistant			助理
+	circumambulate			环行 circum前缀 圆+ambul+ate
+		circumstance		环境
+		circumvent			回避 vent词根 走go-went-vent
+	perambulate				游历 per到处，从头到尾
+		perfect				完美 per+fect词根 做	从头做到尾
+	somnambulate			梦游 somn睡觉
+		insomnia			失眠 in否定前缀+somn+ia名后缀
+anim=life,spirit			animal		生命
+	animate					使有生气
+	animation				动画
+	inanimate				无生命的
+	magnanimous				心胸博大的	magn前缀 大
+		magnify				放大ify动词后缀
+			classify		分类
+	unanimous				意见一致un-uni单一 unit USA
+	animosity				憎恨osity ous+ity名 u压缩掉 	ous多了，负面
+		acidity				酸度
+		stupidity			愚蠢的	
+	equanimity				平静 沉着	equ相当 anim ity
 
-词根
-scrib(多动词)，script(多名词)
+av,avar,avi=desire,bird		av			渴望，鸟
+	avid					渴望的	id形
+		stupid				愚蠢的
+		acid				酸的
+	avidity					贪婪	id+ity
+		stupidity			愚蠢
+		acidity				酸度
+	aviary					鸟笼	ary形名
+		elementary			初级的
+		primary				初级的
+		imaginary			想象的
+		library				图书馆
+	aviation				飞行	ation名
+	aviator					飞行员 	ator	ate+or
+bio,bi=life					biology		生命，生物 	bi前缀表示2
+	biography				传记	graph写
+	biographer				传记作者
+	biochemistry			生物化学 口语中chemistry表示感觉
+	autobiography			自传	auto自动
+	biosphere				生物圈	sphere圆圈
+	biocide					杀虫剂	cid,cis=cut
+		decide				决定	快刀斩乱麻			
+		suicide				自杀
+	microbe					微生物	be=bi
+cit=quote,call				excited		引用，唤起 兴奋:唤起了内心的情绪 ed形
+	cite					引用
+	citation				引用	ation名
+	incite					鼓励	in 向内
+	incitation				鼓励
+	recite					v背诵	re 往回 反复
+	recital					n背诵
+	resuscitate				苏醒	re sus向下 把倒下的再次唤醒
+card,cord=heart				record|c-k-h,d-t	心脏，一致ghk tds
+	cardiac					心脏的，心脏病的	ia病	ac形
+		insomnia			失眠症
+		maniac				发狂的
+	cordial					首要的	ial形
+		special				特殊
+	cordiality				诚心	ality名后缀
+	cordiform				心形的	form形状	i连接作用
+		transform			变形
+	concord					一致	全部 共同 所有
+	discord					不协调	dis否定，发散
+	discordance				不协调	ance名
+ann,enn=year				an=1,n年	年 一年
+	annual					一年一度的	al名 形
+	anniversary				周年纪念	vers转动	ary形名
+	annuity					年金 养老金 ity名后缀
+	perennial				终年的		per从头到尾	ial形
+
+chron=time					chronus克努诺斯吞噬小孩 时间吞噬一切 时间
+	chronic					长期的	ic形
+	chronicle				编年史	icle名
+		article				文章
+	chronology				年代学	ology名学科
+	synchronize				同时发生	syn=sym相同 ize动词
+	synchronous				溶蚀发生	ous形
+	chronograph				计时器		graph写		把时间写下来
+		photograph			照片		photo光		把光记录下来
+
+fug=flee					fully go	逃，离开
+	refuge					避难		re 往回 反复 fug走 	往回跑
+	refugee					避难者		ee 人
+		employee			雇员
+	fugitive				逃亡的		fug it ive形名
+		repulsive			反感的
+		detective			侦探
+	centrifugal				离心的		centr中心center,centre al
+	fugacious				易散去的	acious形
+	insectifuge				驱虫药 		insect昆虫
+	lucifugous				避光的
+vis							看
+	visit					拜访
+her,hes=stick				he/man/male
+							she/woman/female
+							she->hes	粘附
+	hesitate				犹豫hes+it+ate形动名
+	adhesive				黏性的		ive形名
+	adhere					粘着 ad
+	adherence				粘附 		ence名
+	adherent				归依者		ent形动名
+	adhesion				粘着		ion名
+	adhesive				发粘的 胶带	ive形名
+	cohere					v粘着 连贯	co=com=con
+	coherent				adi连贯的	ent形动名
+	cohesion				n结合 凝聚力	ion名
+	inherent				adj天赋的	in内 ent形动名
+	hesitate				v踌躇		ate形动名
+	hesitation				n踌躇		ation名
+
+luc,lust=light,shine		lucy	光
+	lucent					adj发亮的	ent形动名
+	lucid					透明的		id形
+	lucidity				光明		ity名
+	elucidate				阐明		ate形动名
+	elucidation				阐明		ation名
+	translucent				半透明的	trans	穿透through 改变	ent形动名
+	noctilucent				夜间能发光的noct	夜晚	ent形动名
+	luster					光泽		er
+	lusty					精力充沛的
+	lackluster				没有光泽的	lack
+	lustrous				有光泽的	ous		形
+	illustrate				阐明		ate形动名
+	illustration			插图说明	ation名
+	illustrious				辉煌的		ious
+
+fer=bring					infer|conference		带来 拿来
+	confer					协商		con=com	
+	conference				n商量 会议	ence名
+	conferment				n给予		ment名
+	odoriferous				adj有气味的	odor气味	ous形
+	floriferous				adj有花的	flor花		ous形
+	aquiferous				adj含水的	aqu水		ous形 q都后面加u
+	defer					v延期		de向下否定加强
+	deferment				n延期		ment名
+	differ					v不同		
+	difference				n不同		ence名
+	differentiate			v分化		ate形动名
+	infer					v推理		in内
+	inferable				adj可推知的	able形
+	inferential				adj推理的	ential形
+	transferable			adj能转让的	trans改变	able
+	circumference			n四周		circum圆 fer ence
+erg=energe，work			energe		能量，活动
+	energetic				充满活力的	en使	erg etic形
+	energize				给与能量	en使	erg	ize动词
+	anergy					n无力		an否定	erg
+	synergic				adj协力的	syn	erg ic
+
+flu=flow					u-w			流动
+	fluid					流体，流动的		id形
+		acid stupid
+	fluidity				流动性		id+ity
+	flush					v奔流		ish	
+	flux					n流动		flush的简化版
+	fluency					n流利		ency名
+	fluent					adj流利的	ent形动名
+	affluent				adj流入的 富裕的	ent形动名
+	affluence				n富裕		ence名
+	confluent				adj汇流的	ent形动名
+	confluence				n汇流		ence
+	effluent				adj流出的留出物	e辅 外	ent形动名
+	effluence				n流出
+	influx					n涌入		flux流
+	refluent				adj倒流的	re	ent形动名
+	superfluous				adj过剩的	super超级超过 ous
+	superfluity				n过剩		ity
+	mellifluous				adj流畅的 甜美的 melli甜美	watermelon西瓜中的mel
+
+equ,equi=equal,even		equal			相等 平均
+	equal					adj相等的	al
+	eqality					n平等		al+ity
+	equate					v使平等		ate形动名
+	equation				n方程式		tion名
+	equable					adj稳定的	able形
+	adequacy				n足够		acy	名
+	equator					n赤道		ator名
+	equanimity				n镇静		anim生命	ity
+	equilibrium				n平衡		equi平等 libr天平 ium
+		libra				磅
+	equity					n公正		ity
+	equitable				adj公正的	equ it able
+	equivalent				adj相等的	equ val强壮，价值 ent形动名
+	equivocal				adj支支吾吾的	equ voc召集，声音 al形
+	iniquity				n极不公正 邪恶	in iqu ity
+
+liter=letter				letter		字母
+	literate				识字的		ate形动名
+	illiterate				不识字的	il否定	ate形动名
+	literacy				n认字		acy
+	illiteracy				n文盲		acy
+	literature				n文学		ature
+	literary				a文学的		ary形名
+	literal					a文字上的	al
+	obliterate				v抹掉		ob否定 ate形动名
+	obliteration			n删除
+
+meter,metr,meas,mens=measure	meter-简化metr meas-measure	测量
+	barometer				n气压计		baro气压
+	diameter				n直径		dia在...之间dialog
+	perimeter				n周长		per从头到尾 i meter
+	thermometer				n温度计		词根thermo热
+	geometry				n几何学		词根geo地 metr测量	g多表示大地相关	盖亚
+	symmetry				n对称		sym-syn-same
+	asymmetry				n不对称		a 否定 加强
+	immeasurable			a不能测量的	urable	ure-able
+	immense					a无限大的	a 否定 加强
+
+log,logu=speak				dialog		说话
+	logic					n逻辑		ic形名
+	logical					a符合逻辑的	ic+al形名
+	analogy					n类比		ana分开
+	apologue				n寓言		apo远离
+	catalogue				n目录		cata下面 log ue名
+	dialogue				n对话		dia在...之间
+	prologue				n开场白		pro前 log ue
+	epilogue				n尾声		epi在...后面 log ue
+	eulogy					n颂词		eu好	优秀的eu
+	eulogize				v称赞		ize动词
+	monologue				n独白		mono单一
+memor=memory				memory		记忆
+	memory					n记忆
+	memorize				v记住		ize动词
+	immemorial				a远古的		im否定 ial形
+	memorandum				n备忘录		memor andum东西
+	commemorate				v纪念		com memeor ate形动名
+	commemorable			a值得纪念的
+	remember				v回忆		re member=memor
+	rememberance			n回忆
+
+soc=companion				social		联系 同伴,社会
+	sociable				a爱社交的	able
+	socialism				n社会主义	ial形	ism名主义
+		capitalism			n资本主义
+	sociality				n爱交际		ial形	ity名
+	sociology				n社会学		a辅加强		ology名学科
+	associate				v联合		a辅加强		soc联系 ate形动名
+	association				n社团		ate-ation
+	consociate				v结合		con=com全部共同所有	ate形动名
+	dissociate				v分离		dis否定发散	soc	ate形动名
+
+clear,clar,clair=clear,bright			清楚明白cl-r中间元音互换
+	clearance				n清算		ance名
+	clarify					v澄清		ify动词
+		classify			v分类
+	clarity					n清楚		ity名
+	declare					v宣称		de向下否定加强
+	declaration				n定言		ation
+	clairaudient			a有超人听力的	aud-听	ent形动名
+		audio				n声音
+
+cid,cis=cut,kill			d-t			切开，杀
+	decide					v决定		de下
+	decision				n决心		ion名
+	suicide					v自杀		sui-自己
+	homicide				n杀人		homi人home-->homi
+	insecticide				n杀虫剂		insect昆虫	i cid e
+	pesticide				n杀虫剂		pest害虫 i cid e
+	circumcise				v割包皮		circum圆
+	excision				n删除		ex外 cis ion名
+	incisive				a锐利的		in内 cis ive形名
+	incisor					n门牙		in内 cis or名
+	precise					a精确地		pre前 cis e
+	precision				n精密		ion名
+
+astro,aster=star			元音，顺序|disaster星位不正	星星
+	astronomy				n天文学			nomy名学科
+	astrospace				n宇宙空间		space空间
+	astronaut				n宇航员			naut船 引申为海员
+	astrophysics			n天体物理学		physic无力
+	astral					a星的			al形
+	disastrous				a灾难的			dis astro ous
+
+spir=breathe				普罗米修斯	呼吸
+	aspire                	v热望,立志  a加强	强化呼吸，渴望
+	aspiration           	n热望    	ation名
+	aspiring              	a有抱负的   ing
+	conspire				v共谋
+	conspiracy				n共谋		acy名
+	expire                	v断气		x发音类似s
+	expiration				n断气		ation名
+	inspire                	v吸气 鼓励    打打气
+	inspiration            	n吸气
+	perspire            	v出汗    	从头到尾    全部毛孔呼吸
+	perspiration			n出汗		ation名
+	respire					v呼吸 恢复精神	re往回
+	respiration				n呼吸		ation	
+	dispirit				v使沮丧		dis否定
+	transpire				v被泄露蒸发trans改变
+	spiritual				a精神的		ual
+
+rect=stright,right			correct全正|e=i ct=g	正 直
+	rectify					改正		ify动词
+	rectitude				正直		itude抽象名
+	rectangle				矩形		angle角度
+	erect					直立的		e外
+	erection				直立		ion名
+	correctitude			n行为端正	itude抽象名
+
+rid,ris=laugh				ridiculous	笑
+	ridicule				vn嘲笑	rid ic ule名,小
+	ridiculous				a可笑的	ic ule ous形
+	deride					v嘲笑	de加强
+	derisive				a嘲笑的	ive形
+	risible					a爱笑的 ible
+	risibility				n能笑	ility
+
+act ag agent做
+
+scrib(多动词)，script(多名)
     describe,description
         de：向下，否定，加强语气
     scribe 抄写员
     script    脚本
     scripture 经典
-        ure：名词后缀
+        ure：名后缀
     circumscribe    立界限
     conscribe    招募
     conscribpt    壮丁
@@ -108,12 +603,12 @@ stell=star 星星(lmnr)
     interstellar 星际的
     constellate    形成星座
     constellation 星座
-    stellify   使成明星
+    stellify   使成星状
     stelliform 星形的
 mob=move动 mobile，活动的
     immobile 不动的
     mobility    能动性
-    mobilize    动员    
+    mobilize    动员
     automobile    汽车
     mob    暴民
     mobblish    暴乱的
@@ -223,9 +718,9 @@ limin,lim=threshold	门槛，限制
 		defame		诽谤	fame名声	famous
 
 per=try	尝试
-	experience		经验	ex+per+i+ence(名词)
-	experiment		试验	ex+per+i+ment(名词)
-	peril			冒险	il	ile(形容词，名词)
+	experience		经验	ex+per+i+ence(名)
+	experiment		试验	ex+per+i+ment(名)
+	peril			冒险	il	ile(形，名)
 		juvenile	青少年的
 		missile		导弹
 		tortile		弯曲的
@@ -246,7 +741,7 @@ path=feeling,suffering,illness	感情痛苦
 	psychopath		精神病人 psycho精神病患者
 	electropathy	电疗法	electro 电的
 
-lingu=language		age名词，语言
+lingu=language		age名，语言
 	linguist		语言学家
 		feminist	女权主义者 femin-female
 		antagonist	敌手	   ant+agon==ag(做事情)	对着+挣扎
@@ -271,7 +766,7 @@ lingu=language		age名词，语言
 fid=trust faith		相信 信任
 	confidence		自信
 	confident		自信的
-	fidelity		忠贞	el名词
+	fidelity		忠贞	el名
 		novel		
 		model
 		personnel	全体工作人员
@@ -286,26 +781,26 @@ fid=trust faith		相信 信任
 		extravagant	奢侈的	extra+vag+ant	外+走	往外走的程度大
 	confidential	机密的	ial 相信的人才说
 		impartial	公正的	im+part+ial	没+部分+(倾斜)
-		beneficial	有益的	bene+fic+ial	好+做+形容词
+		beneficial	有益的	bene+fic+ial	好+做+形
 	diffident		自卑的	di+辅+辅 否定
 		diffuse		扩散	dif+fus+e	分开+流
 	perfidy			背叛	per(假，坏)+fidy
 		pervert		变态	per+vert(转)	不好方向转
 		perjury		为证
 	perfidious		背信弃义
-	infidel			没信仰的人	el名词
-	affidavit		口供书，宣誓书	avit名词	
+	infidel			没信仰的人	el名
+	affidavit		口供书，宣誓书	avit名	
 
 doc doct=to teach	教，古板的
 	doctor
 	document
-	doctoral		博士的	or+al 名词+形容词
-	doctrinaire		空谈家	aire名词
+	doctoral		博士的	or+al 名+形
+	doctrinaire		空谈家	aire名
 		millionaire	百万富翁
 		questionaire调查问卷
-	docile			可教的	ile 形容词 名词
+	docile			可教的	ile 形名
 		senile		老年的
-		tortile		扭曲的	tort+ile	扭曲+形容词
+		tortile		扭曲的	tort+ile	扭曲+形
 	indocile		难驯服的
 
 Fract=break			打碎	bpfv	fr=br	a=ea	ct=g=k
@@ -330,19 +825,19 @@ Fract=break			打碎	bpfv	fr=br	a=ea	ct=g=k
 		reverse		反转			verse=vert转动
 		repugnant	回向的	
 	refraction		折射作用
-	refractory		倔强的			ory 名词(多表地方)，形容词 	意愿折断
+	refractory		倔强的			ory 名(多表地方)，形 	意愿折断
 		contradictory	矛盾的		contra+dict相反+说话
 		factory			工厂		fact做
 		compulsory		强制的		com+puls所有的+推拉
 		inventory		财产清单	in+vent往里+走路	
-	fragile				易碎的		ct=g	ile名词，形容词
+	fragile				易碎的		ct=g	ile名，形
 		tortile			扭曲的
 		servile			奴性的		serv服务
 		ductile			可塑的		duct引导	introduce
 	fragility			脆弱		ity	
 		equanimity		镇定
 		duplicity		欺骗
-	fragment			碎片		ment名词
+	fragment			碎片		ment名
 		segment			部分		seg=sect切割
 		section			部分
 		garment			衣服		gar装饰
@@ -382,7 +877,7 @@ ped=child,education	儿童，教育
 	pedant				迂腐的教师
 		deodorant		除臭剂de+odor向下，否定，加强+味道
 		inhabitant		居民in+habit	进入+习惯
-	pedantry			迂腐的，卖弄学问		ry多放完整单词后表名词
+	pedantry			迂腐的，卖弄学问		ry多放完整单词后表名
 		rivalry			竞争
 		husbandry		农耕	hus房子
 		peotry			诗歌	peot诗人
@@ -431,7 +926,7 @@ pel,puls=drive,push		驱动
 
 tact,tag,tig,ting=touch	接触
 	contact				接触，联系
-	tactual				触觉的	al形容词
+	tactual				触觉的	al形
 		temporal		临时的	tempor时间
 		terminal		终点的	termin界限
 		trivial			琐碎的	tri三via道路
@@ -443,7 +938,7 @@ tact,tag,tig,ting=touch	接触
 	intact				未触动的
 		inhuman			无人性的
 	tact				机智
-	tactics				战术	ics名词后缀
+	tactics				战术	ics名后缀
 		dynamics		动力学	dynam动力
 	contagion			传染
 	contagious			传染的
@@ -456,7 +951,7 @@ tact,tag,tig,ting=touch	接触
 sper=hope				希望
 	desperate			绝望的
 	desperation			绝望
-	desperado			亡命徒	ado名词后缀
+	desperado			亡命徒	ado名后缀
 		tornado			龙卷风	torn turn旋转
 	despair				绝望
 	prosper				繁荣
@@ -468,9 +963,9 @@ flor,flour=flower		花
 	floral				花的al
 		mortal			致命的mort死 mortuary停尸房
 		mutual			相互的mut相互
-	floret				小花		et名词，小的东西
+	floret				小花		et名，小的东西
 		circlet			小圈
-	florid				华丽的	id形容词
+	florid				华丽的	id形
 		acid-acidity	酸的
 		fluid			流动的
 		invalid			无效的val价值
@@ -480,7 +975,7 @@ flor,flour=flower		花
 	floriculture		花卉栽培	cult培养
 	defloration			摘花，奸污	de向下，否定，加强
 		define			定义		fin范围
-	effloresce			花开放		eff ex esce名词
+	effloresce			花开放		eff ex esce名
 		effervesce		冒气泡		ferv热
 	flourish			繁荣
 	flourishing			兴旺的
@@ -522,7 +1017,7 @@ voc,vok=call voice		叫喊，声音
 gnos(t),gnor=know		知道
 	ignore疏忽
 	ghk=iknore
-	gnosis				灵知sis名词
+	gnosis				灵知sis名
 		heliosis		中暑helio太阳
 		hypnosis		催眠
 	diagnosis			诊断	dia在..之间
@@ -532,7 +1027,7 @@ gnos(t),gnor=know		知道
 		projector		投影仪	ject扔	reject拒绝
 		propel			推进	pel推
 		procrastinate	拖延	crastin明天
-	prognostic			预兆的	征兆	ic形容词 名词
+	prognostic			预兆的	征兆	ic形名
 		static			静态的	st存在
 		chaotic			混乱的	chaos混乱
 	agnostic			不可知论的
@@ -564,7 +1059,7 @@ grep=group				群体
 		secede			脱离	ced走
 	segregation			隔离
 
-reed,cred=believe,trust	相信，信任
+creed,cred=believe,trust	相信，信任
 	credence			相信
 		eminence		杰出e+min突出，尖
 		turbulence		骚乱turb+tort旋转	ul在后缀前连接作用
@@ -728,7 +1223,7 @@ cruc,crus,crux=cross	十字
 	crucial				关键的，十字的
 		diluvial		大洪水的 de加强 lav，luv，lut=wash，洗
 			lavish		浪费
-			lavatory	洗手间	ate ory地方
+			lavyatory	洗手间	ate ory地方
 			ablution	沐浴	ab否定，加强
 			dilute		冲淡	
 			dilution	冲淡
@@ -739,14 +1234,14 @@ cruc,crus,crux=cross	十字
 		formulate		公式化 后缀前ul表连接作用
 		deform			使残废，变形	de否定
 	crucify				钉在十字架上，折磨
-	crusade				十字军，改革运动	ade名词	decade	dec十
+	crusade				十字军，改革运动	ade名	decade	dec十
 	crusader			十字军战士，改革者
 	excruciate			受酷刑，拷打	外 钉在十字上
 		excurse			远足 旅游	curse跑
 		exempt			免除		empt拿
 		exemption		免除
 	excruciation		酷刑
-	cruise				巡航，徘徊	ise动词，名词
+	cruise				巡航，徘徊	ise动词，名
 		jeopardize		危害ize动词		jeopard伤害
 	cruiser				巡航舰
 	curx				难点
@@ -759,7 +1254,7 @@ fall，fail，fault=err，deceive犯错误，欺骗
 	fallacious			犯错误的	acious多
 		perspicacious	有判断力的	per穿过	spic看
 		rapacious		强夺的		rap强
-	fallible			易错的		ible形容词
+	fallible			易错的		ible形
 		gullible		受骗的
 	infallible			不可指责的
 	falsehood			虚伪
@@ -771,7 +1266,7 @@ fall，fail，fault=err，deceive犯错误，欺骗
 	default				违约
 
 pend,pens,pond=weight,expend 称重，花费
-	expenditure			支出，开销	iture名词 ure
+	expenditure			支出，开销	iture名 ure
 		acupuncture		针灸	acu尖，算	punct尖
 		acid,acri,acrid,acu=sour,sharp尖，酸，锐利
 		acid			酸的
@@ -789,7 +1284,7 @@ pend,pens,pond=weight,expend 称重，花费
 		fugitive		逃亡的	fug跑
 		repulsive		排斥的	re回 puls推
 	pension				年金
-	compensate			赔偿	ate动词 形容词
+	compensate			赔偿	ate动词 形
 		perpetuate		使永久	per pet追求	competition
 		petition		请愿	pet追求
 		petitioner		请愿者
@@ -797,14 +1292,14 @@ pend,pens,pond=weight,expend 称重，花费
 		appetizer		开胃食品
 		centripetal		向心的	centri
 		compete			竞争的
-		competent		资格的 能力的	ent动词 名词 形容词
+		competent		资格的 能力的	ent动词 名 形
 		competence		资格
 		competitive		有竞争力的
 		incompetent		无能的
 		impetus			动力	im内
 		impetuous		冲动的
 		perpetual		永久的
-		petulant		脾气暴躁的		ant形容词 名词
+		petulant		脾气暴躁的		ant形名
 	dispense			分配			dis否定 发散
 		dissident		持不同意见的	sid=sit	坐的分散
 		reside			居住			天天呆这里
@@ -826,31 +1321,235 @@ pend,pens,pond=weight,expend 称重，花费
 	ponder				沉思
 	ponderance			重要
 	ponderous			重的
-	
+
+hibit=hold 拿住
+	exhibit				展览
+	exhibition			展览
+	exhibitionist		爱出风头的人ist
+		optometrist		验光师	opt opto=sight视力	metr测量
+			optic		眼的
+			optics		光学
+			optometer	视力计
+			synopsis	概要	syn共同相同 op看到 sis名
+		pediatrist		ped儿童 iatrist专家
+	inhibit				禁止
+		inornate		不加修饰的	orn=embellish	装饰
+			adorn		装饰
+			adornment	装饰
+			ornament	装饰品
+			ornate		华丽的
+	inhibition			禁止
+	prohibit			禁止
+		propone			提议	pon pound=put 放置
+			component	组成的
+			opponent	对立的
+			proponent	提议者
+			exponent	讲解者
+			compound	化合物
+			postpone	推迟
+			expound		详细说明
+			impound		扣押
+			propound	提出
+	prohibition			禁止
+	prohibitive			禁止的
+
+nomin=name				名字
+nominal					名义上的	al形
+	rudimental			基本的 rud=rude原始 粗野
+		rude			原始的
+		rudiment		基本原理
+		erudite			博学的	e=ex
+		erudition		博学
+nominate				提名
+nominee					被提名者	ee人
+denominate				给...命名
+denomination			命名
 
 
+vac,van,void			空
+avoid					回避
+vocation				度假
+vacuum					空虚	uum名
+vacuous					空虚的	ous形
+	precocious			早熟的	coct=cook煮，调配
+		concoct			编造
+		decoct			煎熬
+		precocity		早熟
+vacant					空的 空闲的	ant形名
+	vibrant				震动的	vibr=swing摇摆
+	vibrate				震动 摇动
+	vibration			震动
+	revibrate			震动
+vecate					弄空，退出ate
+	satiate				使充分满足sati，satis，satur=enough，full of food足够 饱足
+	satisfy				使满足
+	satisfaction		满足
+	satisfactory		令人满意的
+	satiable			可使满足的
+	insatiable			不满足的
+	saturate			使饱和
+	saturation			饱和
+	saturated			饱和的
+evacuate				腾空
+evacuation				撤离
+vanity					空虚 虚荣心ity
+	equanimity			镇定	equ相等	anim生命
+	sanity				神志清楚san，sanit=healthy 健康的
+		sane			神志清醒的
+		insane			头脑不清的
+		sanitary		卫生的	ary
+		sanitation		卫生(设备)
+		sanative		有疗效的
+		sanatorium		疗养院 ate or ium地点stadium
+vanish					不见，消失ish动词，名，形
+	languish			倦怠langu=faint虚弱
+	languid				倦怠的
+	languor				衰弱
+void					空的
+avoidance				避免
+devoid					无的 缺的
 
+am,amor,amat=love		爱，情爱	Amor（爱摩尔）是古 罗马 爱神 Cupid（丘比特）的别名
+amatory					恋爱的，色情的	actory
+	lavatory			洗手间	lav	冲洗
+	migratory			移居的	migr=remove迁移 mi=move	gr=ground
+		migrate			迁移
+		migrant			候鸟
+		emigrate		移居	e=ex外
+		immigrate		移居	im里，移动
+		migraine		偏头痛	ine名 形
+			turbine		涡轮turb=stir搅动	turn
+				disturb	打扰
+				disturbance骚动，动乱
+				turbid	浑浊的 id形
+				turbulent	骚乱的 ent形
+				turbulence	骚乱
+				perturb		骚乱	从头到尾，穿过 坏
 
+amiable					和蔼的
+amicable				友好的 温和的able
+	culpable			有罪的culp=fault 错，罪	couple
+	inculpate			归罪
+	exculpate			无罪释放
+amity					友好 和睦 ity
+	indemnity			赔偿	in否定 demn=harm伤害
+		condemn			谴责
+		condemnation	谴责
+		indemnify		赔偿
+enmity					敌意 en进入
 
+cur=care				关心
+curious					好奇的
+curiosity				好奇的
+curio					小件珍奇物品
+secure					安全的
+security				安全
+cure					治疗
+curable					可治好的
+curative				治病的
+accurate				准确的
+accuracy				正确
+procure					取得
+procurable				可得到的
+procurement				获得
+curator					馆长
 
+viv,vit,vig=life		生命
+vivid					活泼的	id形
+	horrid				可怕的	hor=shudder,dread 害怕
+		abhor			憎恨
+		abhorrent		憎恶的
+		horrible		可怕的
+		horrify			使恐怖
+vivify					给予生气ify动词
+		nullify			废除
+		annul			取消
+vivisect				活体揭破 sect,seg=cut,divide切割
+	section				切开，部门
+	bisect				二分
+	dissect				解剖
+	dissection			解剖
+	intersect			横切
+	intersection		分裂
+	segment				部分
+	segmentation		分裂
+convivial				欢乐的con
+	consent				同意sens sent=feel 感觉
+		sense			感觉
+		sensible		能感觉的
+		sensibility		敏感性
+		sensitive		敏感的
+		sensory			感觉的
+		sentiment		感情
+		sentimental		多感情的
+		nonsense		无意义的话
+		assent			赞成as加强
+		dissent			持不同意见
+		dissension		意见不合
+		consensus		一致意见
+		resent			怨恨
+revive					复活re往回 反复
+	resign				辞职
+revival					复活
+vivacious				活泼的
+vital					有活力的
+vitality				活力
+vitalize				赋予生命
+revitalize				恢复生命
+vitals					重要器官
+viable					能活的
+viability				生存能力
+vigor					精力 伟哥
+vigorous				精力旺盛的
+invigorate				鼓励 使强壮
+invigorating			激发精神的
+vigilant				警惕的
+vigilance				警惕
 
-
-
-
-
-
-		
-
-
-
-	
-
-
-
-
-
-		
-		
-		
-	
+ped=foot				脚的bpfv,tds
+pedal					脚的，足的al
+	territorial			领土的territory+al	terr=earth土地 泰雅 神话
+		terrain			地形
+		terrace			平台
+		territory		领土
+		mediterranean	地中海medi terr an ean 
+		subterrane		地下层
+		subterranean	地下的
+		inter			埋葬
+		disinter		挖出
+pedestrian				步行的 步行者pede str街道 ian
+	historian			历史学家
+	civilian			平民
+biped					两足的
+	bigamy				重婚罪gam=marriage婚姻
+	monogamy			一夫一妻制	mono一 monologue 独白
+	misogamy			厌恶结婚 mis否定
+quadruped				四足动物
+centipede				蜈蚣
+expedite				加速
+	polite				礼貌的
+	definite			明确的fin=end,boundary结束 范围
+		finish			结束
+		finalist		决赛选手
+		finality		最后
+		finite			有限的
+		infinite		无限的
+		infinitude		无限
+		confine			限制
+		confined		限制的
+		define			限定
+		definition		定义
+		definitive		决定性的
+	erudite				博学的
+	recondite			深奥的cond=hide藏
+		abscond			潜逃
+	parasite			寄生虫para在旁边sit
+	ignite				点燃ign火
+	unite				联合统一
+expeditious				迅速的
+expedition				远征 探险
+impede					妨碍		插足
+impediment				阻碍物
+expedient				方便的
+podiatrist				足病医生
 
