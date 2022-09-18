@@ -1,11 +1,421 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T08:52:46.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hfIZEnP9e6iT1PjXMK6s" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T13:24:31.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Pex6jdoGSRRvl8NcWLEZ" version="20.3.0" type="github">
   <diagram id="-M9bqZtvqhOVB8bLbYhx" name="第 1 页">
-    <mxGraphModel dx="2449" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2174" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3S7RWVhYzHVWZAJTHhtj-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="840" width="120" height="60" as="geometry" />
+        <mxCell id="ENHnLjjwgz3W217fX3TC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-1" target="ENHnLjjwgz3W217fX3TC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-11" value="鸣条之战" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="ENHnLjjwgz3W217fX3TC-4">
+          <mxGeometry x="-0.2889" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-1" value="&lt;div&gt;夏朝&lt;/div&gt;&lt;div&gt;前2146-前1675年&lt;/div&gt;&lt;div&gt;夏启建&lt;span style=&quot;background-color: initial;&quot;&gt;国&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;首都安邑，今山西夏县&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-3" target="ENHnLjjwgz3W217fX3TC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;周武王牧野之战&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;天商立周&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ENHnLjjwgz3W217fX3TC-14">
+          <mxGeometry x="-0.2833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-3" value="&lt;div&gt;商朝&lt;/div&gt;&lt;div&gt;(前1675-1029年)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-5" target="ENHnLjjwgz3W217fX3TC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-5" value="&lt;div&gt;前771年，周幽王“烽&lt;/div&gt;&lt;div&gt;火戏诸侯”，缟京论陷&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-6" target="ENHnLjjwgz3W217fX3TC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-6" target="ENHnLjjwgz3W217fX3TC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-6" value="&lt;div&gt;西周&lt;/div&gt;&lt;div&gt;(前1029-771年，周文王&lt;/div&gt;&lt;div&gt;姬昌建国，首都缟京（宗&lt;/div&gt;&lt;div&gt;周)，今陕西西安)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-18" value="前230年，秦启动统一战争&#xa;前221年，秦天六国统一中国" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-7" target="ENHnLjjwgz3W217fX3TC-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="810" />
+              <mxPoint x="170" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-7" target="ENHnLjjwgz3W217fX3TC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-7" value="&lt;div&gt;周朝&lt;/div&gt;&lt;div&gt;(前1029-公元前221)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-16" target="ENHnLjjwgz3W217fX3TC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-46" value="&lt;span style=&quot;font-size: 12px; font-weight: 700; background-color: rgb(248, 249, 250);&quot;&gt;秦始皇灭六国统一中国&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ENHnLjjwgz3W217fX3TC-45">
+          <mxGeometry x="-0.5562" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-16" value="&lt;div&gt;东周&lt;/div&gt;&lt;div&gt;(前770年-前221年&lt;/div&gt;&lt;div&gt;周平王建立东周，定都&lt;/div&gt;&lt;div&gt;洛邑（今河南洛阳）)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-47" value="刘邦占咸阳" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-17" target="ENHnLjjwgz3W217fX3TC-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-17" value="&lt;div&gt;秦朝&lt;/div&gt;&lt;div&gt;前221年-前207年)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="890" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-25" value="前453年，韩&#xa;赵、魏三家分晋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-22" target="ENHnLjjwgz3W217fX3TC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-22" target="ENHnLjjwgz3W217fX3TC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-22" target="ENHnLjjwgz3W217fX3TC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-22" value="&lt;div&gt;春秋&lt;/div&gt;&lt;div&gt;(前770-前476)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="667" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-24" target="ENHnLjjwgz3W217fX3TC-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-24" value="&lt;div&gt;战国&lt;/div&gt;&lt;div&gt;(前475-前221)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="667" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-29" value="&lt;div&gt;齐桓公姜小白&lt;/div&gt;&lt;div&gt;(姜子牙后代)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-30" value="&lt;div&gt;秦穆公&lt;/div&gt;&lt;div&gt;(赢任好&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-31" value="&lt;div&gt;楚庄王&lt;/div&gt;&lt;div&gt;(芈吕)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1220" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-32" value="&lt;div&gt;晋文公（姬重耳）&lt;/div&gt;&lt;div&gt;(被分为赵魏韩三国)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="458" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-33" value="&lt;div&gt;宋襄公&lt;/div&gt;&lt;div&gt;(被齐所天)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1060" y="458" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-36" value="&lt;div&gt;齐国&lt;/div&gt;&lt;div&gt;(前221年亡于秦)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="880" y="575" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-37" value="&lt;div&gt;赵国&lt;/div&gt;&lt;div&gt;前222年亡于秦)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="575" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-38" value="&lt;div&gt;楚国&lt;/div&gt;&lt;div&gt;(前223年亡于秦)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1200" y="575" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-39" value="&lt;div&gt;韩国&lt;/div&gt;&lt;div&gt;前230年亡于秦)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="880" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-40" value="&lt;div&gt;燕国&lt;/div&gt;&lt;div&gt;(前222年亡于秦)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-41" value="&lt;div&gt;魏国&lt;/div&gt;&lt;div&gt;(前225年亡于秦&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1200" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-42" value="秦国" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="697" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-49" value="曹丕篡东汉&#xa;立魏开三国" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-44" target="ENHnLjjwgz3W217fX3TC-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-44" target="ENHnLjjwgz3W217fX3TC-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-44" value="&lt;div&gt;汉朝&lt;/div&gt;&lt;div&gt;(前206-220)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="1050" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-48" target="ENHnLjjwgz3W217fX3TC-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-48" target="ENHnLjjwgz3W217fX3TC-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-48" target="ENHnLjjwgz3W217fX3TC-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-48" target="ENHnLjjwgz3W217fX3TC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-48" value="&lt;div&gt;三国&lt;/div&gt;&lt;div&gt;(220-280)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="1400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-53" value="王莽篡汉" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-50" target="ENHnLjjwgz3W217fX3TC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-50" target="ENHnLjjwgz3W217fX3TC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-50" value="&lt;div&gt;西汉&lt;/div&gt;&lt;div&gt;(前206-8)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1050" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-54" value="刘秀称帝" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-51" target="ENHnLjjwgz3W217fX3TC-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-51" value="&lt;div&gt;新朝&lt;/div&gt;&lt;div&gt;(9-23)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-61" value="曹丕篡东汉" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-52" target="ENHnLjjwgz3W217fX3TC-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-52" value="&lt;div&gt;东汉&lt;/div&gt;&lt;div&gt;(25-220)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-69" value="同时期并列存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-57" target="ENHnLjjwgz3W217fX3TC-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-90" value="刘裕代东晋&#xa;建刘宋开南北朝" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-57" target="ENHnLjjwgz3W217fX3TC-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-57" value="&lt;div&gt;晋朝&lt;/div&gt;&lt;div&gt;(265-420)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="1694" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-67" value="司马炎立西晋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-58" target="ENHnLjjwgz3W217fX3TC-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-58" value="&lt;div&gt;曹魏(220-265)&lt;/div&gt;&lt;div&gt;亡于司马炎&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-71" value="八王之乱&#xa;晋室南渡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-59" target="ENHnLjjwgz3W217fX3TC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-59" value="&lt;div&gt;西晋&lt;/div&gt;&lt;div&gt;(265-316)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1688" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-63" value="&lt;div&gt;刘备建西蜀&lt;/div&gt;&lt;div&gt;(221-263)&lt;/div&gt;&lt;div&gt;亡于曹魏&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="394" y="1470" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-65" value="&lt;div&gt;孙权立东吴&lt;/div&gt;&lt;div&gt;(229-280)&lt;/div&gt;&lt;div&gt;亡于西晋&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="394" y="1580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-68" value="&lt;div&gt;十六国&lt;/div&gt;&lt;div&gt;(304-439)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1810" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-96" value="刘裕代东晋立宋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-70" target="ENHnLjjwgz3W217fX3TC-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-70" value="&lt;div&gt;东晋&lt;/div&gt;&lt;div&gt;(317-420)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="1824" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-73" value="&lt;div&gt;前赵&lt;/div&gt;&lt;div&gt;(304-329)&lt;/div&gt;&lt;div&gt;319年分裂出后赵&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-74" value="&lt;div&gt;成汉&lt;/div&gt;&lt;div&gt;(304-347)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-75" value="&lt;div&gt;前凉&lt;/div&gt;&lt;div&gt;(314-363)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-76" value="&lt;div&gt;前燕&lt;/div&gt;&lt;div&gt;(337-370)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-77" value="&lt;div&gt;前秦&lt;/div&gt;&lt;div&gt;(351-394)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-78" value="&lt;div&gt;后秦&lt;/div&gt;&lt;div&gt;(384-417)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-79" value="&lt;div&gt;后赵&lt;/div&gt;&lt;div&gt;(319-351)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-80" value="&lt;div&gt;后燕&lt;/div&gt;&lt;div&gt;(384-407)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-81" value="&lt;div&gt;西秦&lt;/div&gt;&lt;div&gt;(385-431)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-82" value="&lt;div&gt;后凉&lt;/div&gt;&lt;div&gt;(386-403)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-83" value="&lt;div&gt;南凉&lt;/div&gt;&lt;div&gt;(407-421)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-84" value="&lt;div&gt;南燕&lt;/div&gt;&lt;div&gt;(398-410)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-85" value="&lt;div&gt;西凉&lt;/div&gt;&lt;div&gt;(407-421)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-86" value="&lt;div&gt;胡夏&lt;/div&gt;&lt;div&gt;(407-431)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-87" value="&lt;div&gt;北燕&lt;/div&gt;&lt;div&gt;(407-436)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-88" value="&lt;div&gt;北凉&lt;/div&gt;&lt;div&gt;(397-439)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1900" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-89" target="ENHnLjjwgz3W217fX3TC-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-100" value="杨坚代北周&#xa;称帝开隋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-89" target="ENHnLjjwgz3W217fX3TC-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-89" target="ENHnLjjwgz3W217fX3TC-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-89" value="&lt;div&gt;南北朝&lt;/div&gt;&lt;div&gt;(420-589)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="2010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-91" value="&lt;div&gt;南朝&lt;/div&gt;&lt;div&gt;(420-589)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="2010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-97" value="萧道成取代刘宋自立" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-92" target="ENHnLjjwgz3W217fX3TC-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-92" value="宋(420-479)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="2010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-98" value="陈霸先废梁敬帝自立" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-93" target="ENHnLjjwgz3W217fX3TC-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-93" value="齐(479-502)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="2120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-94" value="&lt;div&gt;陈(557-589)&lt;/div&gt;&lt;div&gt;亡于隋&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="2220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-116" value="隋恭帝杨侑禅让李渊" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-99" target="ENHnLjjwgz3W217fX3TC-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-99" value="隋朝&#xa;(581-618)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="2380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-101" value="&lt;div&gt;北朝&lt;/div&gt;&lt;div&gt;(386-581)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-170" y="2010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-102" target="ENHnLjjwgz3W217fX3TC-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-102" target="ENHnLjjwgz3W217fX3TC-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-102" value="北魏(386-534)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-400" y="2010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-111" value="权臣废东魏皇帝自立" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-103" target="ENHnLjjwgz3W217fX3TC-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-103" value="东魏(534-550)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-530" y="2121" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-104" target="ENHnLjjwgz3W217fX3TC-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-104" value="西魏(535-556)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-269" y="2121" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-107" value="(六镇之乱)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="2070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-108" value="&lt;div&gt;北齐(550-577)&lt;/div&gt;&lt;div&gt;亡于北周&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-530" y="2220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-114" value="杨坚代北周立隋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-109" target="ENHnLjjwgz3W217fX3TC-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-109" value="&lt;div&gt;北周(557-581)&lt;/div&gt;&lt;div&gt;亡于杨坚&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-269" y="2220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-119" value="梁王朱温篡唐&#xa;建立后梁" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-115" target="ENHnLjjwgz3W217fX3TC-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-115" target="ENHnLjjwgz3W217fX3TC-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-115" value="&lt;div&gt;唐朝&lt;/div&gt;&lt;div&gt;(618-907)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="2540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-145" value="赵匡胤陈桥兵变&#xa;篡后周建立北宋" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-118" target="ENHnLjjwgz3W217fX3TC-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-147" value="同时代&#xa;并列存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-118" target="ENHnLjjwgz3W217fX3TC-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-118" value="&lt;span style=&quot;text-align: left;&quot;&gt;五代十国&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(907-960)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="2923" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-120" value="&lt;div&gt;武周&lt;/div&gt;&lt;div&gt;(690-705)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-170" y="2610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-127" value="李存勖先立后唐，后灭后梁" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-122" target="ENHnLjjwgz3W217fX3TC-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-122" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后梁(907-923)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="2731.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-128" value="石教瑭天后唐" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-123" target="ENHnLjjwgz3W217fX3TC-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-123" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后唐(923-936)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="2834.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-129" value="刘知远建立" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-124" target="ENHnLjjwgz3W217fX3TC-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后晋(936-947)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="2928.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-130" value="郭威天后汉立后周" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="ENHnLjjwgz3W217fX3TC-125" target="ENHnLjjwgz3W217fX3TC-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-125" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后汉(947-951)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="3024.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-126" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后周(951-960)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="3114.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-132" value="&lt;div style=&quot;text-align: left;&quot;&gt;五代&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="2928.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-133" value="&lt;div&gt;前蜀&lt;/div&gt;&lt;div&gt;(907-925)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="2893" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-134" value="&lt;div&gt;闽&lt;/div&gt;&lt;div&gt;(909-945)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2893" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-135" value="&lt;div style=&quot;text-align: left;&quot;&gt;十国&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2923" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-136" value="&lt;div&gt;后蜀&lt;/div&gt;&lt;div&gt;(933-966)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="2953" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-137" value="&lt;div&gt;楚&lt;/div&gt;&lt;div&gt;(896-951)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2953" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-138" value="&lt;div&gt;吴&lt;/div&gt;&lt;div&gt;(902-937)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="3013" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-139" value="&lt;div&gt;南汉&lt;/div&gt;&lt;div&gt;(917-971)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="3013" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-140" value="&lt;div&gt;南唐&lt;/div&gt;&lt;div&gt;(937-975)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="3073" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-141" value="&lt;div&gt;北汉&lt;/div&gt;&lt;div&gt;(951-979)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="3073" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-142" value="&lt;div&gt;吴越&lt;/div&gt;&lt;div&gt;(907-978)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="3133" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-143" value="&lt;div&gt;南平&lt;/div&gt;&lt;div&gt;(924-963)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="3133" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-144" value="&lt;div style=&quot;text-align: left;&quot;&gt;宋朝&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(960-1279)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="3220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ENHnLjjwgz3W217fX3TC-146" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;辽国&lt;/div&gt;&lt;div&gt;(907-1125)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-180" y="3220" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
